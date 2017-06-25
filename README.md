@@ -71,9 +71,7 @@ This pluggin is supported by PHP versions 5.3 or higher and is compatible with H
 The plugin has been developed under version 4.8 of WordPress and under version 4.3 of the Grifus theme.
 
 ### Video
-<p align="center">
-[![Extensions For Grifus](https://img.youtube.com/vi/eU1hSQxo-R4/0.jpg)](https://youtu.be/eU1hSQxo-R4 "Extensions For Grifus")
-</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/eU1hSQxo-R4" frameborder="0" allowfullscreen></iframe>
 
 ### Images
 
