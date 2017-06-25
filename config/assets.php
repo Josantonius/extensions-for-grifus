@@ -52,22 +52,6 @@ return [
                 'version'   => '1.0.0',
                 'media'     => '',
             ],
-            'eliasisMaterial' => [
-                'name'      => 'eliasisMaterial',
-                'url'       => $css . 'eliasis-material.css',
-                'place'     => 'admin',
-                'deps'      => [],
-                'version'   => '1.0.0',
-                'media'     => '',
-            ],
-            'eliasisMaterialIcons' => [
-                'name'      => 'eliasisMaterialIcons',
-                'url'       => $css . 'eliasis-material-icons.css',
-                'place'     => 'admin',
-                'deps'      => [],
-                'version'   => '1.0.0',
-                'media'     => '',
-            ],
         ],
     ],
 ];
