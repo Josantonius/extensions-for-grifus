@@ -71,36 +71,14 @@ This pluggin is supported by PHP versions 5.3 or higher and is compatible with H
 The plugin has been developed under version 4.8 of WordPress and under version 4.3 of the Grifus theme.
 
 ### Video
-img[src$="centerme"] {
-  display:block;
-  margin: 0 auto;
-}
-[![Extensions For Grifus](https://img.youtube.com/vi/eU1hSQxo-R4/0.jpg?style=centerme)](https://youtu.be/eU1hSQxo-R4 "Extensions For Grifus")
+<p align="center">
+  <<a href="https://youtu.be/eU1hSQxo-R4" title="Extensions For Grifus"><img width="460" height="300" src="https://img.youtube.com/vi/eU1hSQxo-R4/0.jpg"></a>
+</p>
 
 ### Images
 
 ![image](resources/screenshot-1.png)
 ![image](resources/screenshot-2.png)
-![image](modules/copy-movie-grifus/resources/screenshot-5.png)
-![image](modules/copy-movie-grifus/resources/screenshot-6.png)
-![image](modules/copy-movie-grifus/resources/screenshot-7.png)
-![image](modules/copy-movie-grifus/resources/screenshot-8.png)
-![image](modules/copy-movie-grifus/resources/screenshot-9.png)
-![image](modules/custom-images-grifus/resources/screenshot-15.png)
-![image](modules/custom-images-grifus/resources/screenshot-16.png)
-![image](modules/custom-images-grifus/resources/screenshot-17.png)
-![image](modules/custom-images-grifus/resources/screenshot-18.png)
-![image](modules/custom-images-grifus/resources/screenshot-19.png)
-![image](modules/custom-images-grifus/resources/screenshot-20.png)
-![image](modules/custom-images-grifus/resources/screenshot-21.png)
-![image](modules/custom-rating-grifus/resources/screenshot-29.png)
-![image](modules/custom-rating-grifus/resources/screenshot-30.png)
-![image](modules/custom-rating-grifus/resources/screenshot-31.png)
-![image](modules/custom-rating-grifus/resources/screenshot-32.png)
-![image](modules/custom-rating-grifus/resources/screenshot-33.png)
-![image](modules/custom-rating-grifus/resources/screenshot-34.png)
-![image](modules/custom-rating-grifus/resources/screenshot-35.png)
-![image](modules/custom-rating-grifus/resources/screenshot-36.png)
 
 ### Contribute
 1. Check for open issues or open a new issue to start a discussion around a bug or feature.
