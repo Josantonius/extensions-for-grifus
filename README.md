@@ -31,7 +31,7 @@ Save external IMDB images to your WordPress site. Replaces IMDB rating by your o
 Replaces IMDB rating by your own rating system in Grifus theme. Replaces the static rating system of the Grifus theme by a dynamic rating system.
 
 <p align="center">
-  <a href="https://youtu.be/eU1hSQxo-R4" title="Extensions For Grifus" target="_blank" rel="noopener noreferrer">
+  <a href="https://youtu.be/eU1hSQxo-R4" title="Extensions For Grifus" target="_blank">
   	<img src="resources/thumbnail-english-video.png">
   </a>
 </p>
