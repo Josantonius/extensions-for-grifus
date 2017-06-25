@@ -1,0 +1,53 @@
+{
+    "name":        "josantonius/extensions-for-grifus",
+    "version":     "1.0.0",
+    "description": "Extensions for Grifus theme.",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "Wordpress", 
+        "Plugin", 
+        "Grifus Theme",
+        "Copy Movie Data",
+        "Custom Rating",
+        "Replace Images",
+        "Custom Images"
+    ],
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name":     "Josantonius",
+            "email":    "hello@josantonius.com",
+            "homepage": "https://josantonius.com",
+            "role":     "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "lib/vendor",
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/Josantonius/extensions-for-grifus/issues",
+        "forum": "http://stackoverflow.com/tags/extensions-for-grifus",
+        "source": "https://github.com/Josantonius/extensions-for-grifus"
+    },
+    "require": {
+        "php": "^5.3 || ^7.0",
+        "eliasis-framework/eliasis"        : "^1.1.0",
+        "eliasis-framework/module"         : "^1.0.6",
+        "Josantonius/WP_Register"          : "^1.0.2",
+        "Josantonius/Hook"                 : "^1.0.5",
+        "Josantonius/WP_Menu"              : "^1.0.0",
+        "Josantonius/WP_Image"             : "^1.0.0",
+        "composer/installers"              : "^1.3.0",
+        "Josantonius/copy-movie-grifus"    : "^1.0.0",
+        "Josantonius/custom-rating-grifus" : "^1.0.0",
+        "Josantonius/custom-images-grifus" : "^1.0.0",
+        "Josantonius/WP_Plugin-Info"       : "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExtensionsForGrifus\\" : "src/"
+        }
+    }
+}

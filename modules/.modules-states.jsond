@@ -1,0 +1,20 @@
+{
+    "ExtensionsForGrifus": {
+        "CustomImagesGrifus": {
+            "action": "",
+            "state": "uninstalled"
+        },
+        "CustomRatingGrifus": {
+            "action": "",
+            "state": "uninstalled"
+        },
+        "WP_Plugin_Info": {
+            "action": "",
+            "state": "active"
+        },
+        "CopyMovieGrifus": {
+            "action": "",
+            "state": "uninstalled"
+        }
+    }
+}
