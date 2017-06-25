@@ -72,7 +72,7 @@ The plugin has been developed under version 4.8 of WordPress and under version 4
 
 ### Video
 <p align="center">
-  <<a href="https://youtu.be/eU1hSQxo-R4" title="Extensions For Grifus"><img width="460" height="300" src="https://img.youtube.com/vi/eU1hSQxo-R4/0.jpg"></a>
+  <a href="https://youtu.be/eU1hSQxo-R4" title="Extensions For Grifus"><img src="https://img.youtube.com/vi/eU1hSQxo-R4/0.jpg"></a>
 </p>
 
 ### Images
