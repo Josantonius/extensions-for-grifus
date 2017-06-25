@@ -31,7 +31,7 @@ Guarda imágenes externas de IMDB en tu sitio de WordPress. Reemplaza imágenes 
 Reemplaza la clasificación IMDB en las películas del theme Grifus por tu propio sistema de clasificación. Sustituye el sistema de clasificación estática del theme Grifus por un sistema de clasificación dinámica.
 
 <p align="center">
-  <a href="https://youtu.be/frVGux8zSXU" title="Extensions For Grifus">
+  <a href="https://youtu.be/frVGux8zSXU" title="Extensions For Grifus" target="_blank" rel="noopener noreferrer">
   	<img src="thumbnail-spanish-video.png">
   </a>
 </p>
