@@ -9,8 +9,7 @@
  * @since      1.0.0
  */
 
-use Eliasis\App\App,
-    Eliasis\View\View;
+use Eliasis\App\App;
 
 $slug = App::ExtensionsForGrifus()->get('slug');
 

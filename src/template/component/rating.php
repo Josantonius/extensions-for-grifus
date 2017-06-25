@@ -9,11 +9,7 @@
  * @since      1.0.0
  */
 
-use Eliasis\App\App,
-    Eliasis\View\View,
-    Eliasis\Module\Module;
-
-$slug = trim(Module::WP_Plugin_Rating()->get('folder'), App::DS);
+use Eliasis\View\View;
 
 $data = View::get();
 ?>
