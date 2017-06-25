@@ -74,7 +74,7 @@ Una vez activado:
 
 Este plugin es soportado por versiones de PHP 5.3 o superiores y es compatible con versiones de HHVM 3.0 o superiores. 
 
-El plugin ha sido desarrollado bajo la versión 4.8 de WordPress y bajo la versión 4.3 del theme Grifus. 
+El plugin ha sido desarrollado bajo la versión 4.8 de WordPress y bajo la versión 4.0.3 del theme Grifus. 
 
 ### Imágenes
 
