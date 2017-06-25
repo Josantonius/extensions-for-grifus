@@ -46,7 +46,7 @@ class Rating extends Controller {
             $rating = Module::WP_Plugin_Info()->instance('Info')
                                               ->get('rating', $slug);
 
-            $rating = ($rating) ? $rating : 5;
+            $rating = ($rating !== false) ? $rating : 5;
         }
 
         $data['stars'] = $this->prepareStars($rating);
