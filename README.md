@@ -65,9 +65,10 @@ From WordPress.org:
 	3. Activate Extensions For Grifus from your Plugins page.
 
 Once Activated:
-
-	1. Go to Grifus Extensions > Custom Images and click the button to reset all ratings.
-	2. Go to Grifus Extensions > Custom Images and click the button to replace all images.
+	
+	1. Go to Grifus Extensions and install and activate the modules.
+	2. Go to Grifus Extensions > Custom Images and click the button to reset all ratings.
+	3. Go to Grifus Extensions > Custom Images and click the button to replace all images.
 
 ### Requirements
 

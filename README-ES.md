@@ -66,8 +66,9 @@ Desde WordPress.org:
 
 Una vez activado:
 
-	1. Entra en Grifus Extensions > Custom Rating y haz click en el botón para reiniciar todas las clasificaciones.
-	2. Entra en Grifus Extensions > Custom Images y haz click en el botón para reemplazar todas las imágenes.
+	1. Entra en Grifus Extensions e instala y activa los módulos.
+	2. Entra en Grifus Extensions > Custom Rating y haz click en el botón para reiniciar todas las clasificaciones.
+	3. Entra en Grifus Extensions > Custom Images y haz click en el botón para reemplazar todas las imágenes.
     
 ### Requisitos
 

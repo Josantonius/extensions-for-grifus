@@ -44,8 +44,9 @@ Replaces IMDB rating by your own rating system in Grifus theme. Replaces the sta
 
 = Once Activated =
 
-1. Go to Grifus Extensions > Custom Images and click the button to reset all ratings.
-2. Go to Grifus Extensions > Custom Images and click the button to replace all images.
+1. Go to Grifus Extensions and install and activate the modules.
+2. Go to Grifus Extensions > Custom Images and click the button to reset all ratings.
+3. Go to Grifus Extensions > Custom Images and click the button to replace all images.
 
 == Frequently Asked Questions ==
 
