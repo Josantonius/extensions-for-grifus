@@ -32,7 +32,7 @@ Replaces IMDB rating by your own rating system in Grifus theme. Replaces the sta
 
 <p align="center">
   <a href="https://youtu.be/eU1hSQxo-R4" title="Extensions For Grifus">
-  	<img src="resources/video-english.png">
+  	<img src="resources/thumbnail-english-video.png">
   </a>
 </p>
 

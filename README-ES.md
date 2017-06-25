@@ -32,7 +32,7 @@ Reemplaza la clasificación IMDB en las películas del theme Grifus por tu propi
 
 <p align="center">
   <a href="https://youtu.be/frVGux8zSXU" title="Extensions For Grifus">
-  	<img src="resources/video-english.png">
+  	<img src="thumbnail-spanish-video.png">
   </a>
 </p>
 
