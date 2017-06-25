@@ -12,7 +12,6 @@ Extensiones para el theme Grifus.
 
 - [Instalación](#instalación)
 - [Requisitos](#requisitos)
-- [Vídeo](#video)
 - [Imágenes](#imagenes)
 - [Contribuir](#contribuir)
 - [Licencia](#licencia)
@@ -30,6 +29,12 @@ Guarda imágenes externas de IMDB en tu sitio de WordPress. Reemplaza imágenes 
 
 [Custom Rating Grifus](https://github.com/Josantonius/Custom-Rating-Grifus.git)
 Reemplaza la clasificación IMDB en las películas del theme Grifus por tu propio sistema de clasificación. Sustituye el sistema de clasificación estática del theme Grifus por un sistema de clasificación dinámica.
+
+<p align="center">
+  <a href="https://youtu.be/frVGux8zSXU" title="Extensions For Grifus">
+  	<img src="resources/video-english.png">
+  </a>
+</p>
 
 ### Instalación 
 
@@ -68,36 +73,12 @@ Una vez activado:
 
 Este plugin es soportado por versiones de PHP 5.3 o superiores y es compatible con versiones de HHVM 3.0 o superiores. 
 
-El plugin ha sido desarrollado bajo la versión 4.7.4 de WordPress y bajo la versión 4.0.2.6 del theme Grifus. 
-
-### Vídeo
-
-[![Extensions For Grifus](https://img.youtube.com/vi/frVGux8zSXU/0.jpg)](https://youtu.be/frVGux8zSXU "Extensions For Grifus")
+El plugin ha sido desarrollado bajo la versión 4.8 de WordPress y bajo la versión 4.3 del theme Grifus. 
 
 ### Imágenes
 
 ![image](resources/screenshot-3.png)
 ![image](resources/screenshot-4.png)
-![image](modules/copy-movie-grifus/resources/screenshot-10.png)
-![image](modules/copy-movie-grifus/resources/screenshot-11.png)
-![image](modules/copy-movie-grifus/resources/screenshot-12.png)
-![image](modules/copy-movie-grifus/resources/screenshot-13.png)
-![image](modules/copy-movie-grifus/resources/screenshot-14.png)
-![image](modules/custom-images-grifus/resources/screenshot-22.png)
-![image](modules/custom-images-grifus/resources/screenshot-23.png)
-![image](modules/custom-images-grifus/resources/screenshot-24.png)
-![image](modules/custom-images-grifus/resources/screenshot-25.png)
-![image](modules/custom-images-grifus/resources/screenshot-26.png)
-![image](modules/custom-images-grifus/resources/screenshot-27.png)
-![image](modules/custom-images-grifus/resources/screenshot-28.png)
-![image](modules/custom-rating-grifus/resources/screenshot-29.png)
-![image](modules/custom-rating-grifus/resources/screenshot-30.png)
-![image](modules/custom-rating-grifus/resources/screenshot-31.png)
-![image](modules/custom-rating-grifus/resources/screenshot-32.png)
-![image](modules/custom-rating-grifus/resources/screenshot-33.png)
-![image](modules/custom-rating-grifus/resources/screenshot-34.png)
-![image](modules/custom-rating-grifus/resources/screenshot-37.png)
-![image](modules/custom-rating-grifus/resources/screenshot-38.png)
 
 ### Contribuir
 1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.

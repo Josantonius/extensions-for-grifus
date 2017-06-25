@@ -13,7 +13,6 @@ Extensions for the Grifus theme.
 - [Installation](#installation)
 - [Requirements](#requirements)
 - [Video](#video)
-- [Images](#images)
 - [Contribute](#contribute)
 - [Licensing](#licensing)
 - [Copyright](#copyright)
@@ -30,6 +29,12 @@ Save external IMDB images to your WordPress site. Replaces IMDB rating by your o
 
 [Custom Rating Grifus](https://github.com/Josantonius/Custom-Rating-Grifus.git)
 Replaces IMDB rating by your own rating system in Grifus theme. Replaces the static rating system of the Grifus theme by a dynamic rating system.
+
+<p align="center">
+  <a href="https://youtu.be/eU1hSQxo-R4" title="Extensions For Grifus">
+  	<img src="resources/video-english.png">
+  </a>
+</p>
 
 ### Installation
 
@@ -69,11 +74,6 @@ Once Activated:
 This pluggin is supported by PHP versions 5.3 or higher and is compatible with HHVM versions 3.0 or higher.
 
 The plugin has been developed under version 4.8 of WordPress and under version 4.3 of the Grifus theme.
-
-### Video
-<p align="center">
-  <a href="https://youtu.be/eU1hSQxo-R4" title="Extensions For Grifus"><img src="https://img.youtube.com/vi/eU1hSQxo-R4/0.jpg"></a>
-</p>
 
 ### Images
 
