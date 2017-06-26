@@ -175,19 +175,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Eliasis-Framework/Eliasis.git",
-            "reference": "c4caed0f6bb4dcf462e946d24fdd15138ae04991"
+            "reference": "c955eda920a03fb17af7abb9f119b5ace93ae675"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Eliasis-Framework/Eliasis/zipball/c4caed0f6bb4dcf462e946d24fdd15138ae04991",
-            "reference": "c4caed0f6bb4dcf462e946d24fdd15138ae04991",
+            "url": "https://api.github.com/repos/Eliasis-Framework/Eliasis/zipball/c955eda920a03fb17af7abb9f119b5ace93ae675",
+            "reference": "c955eda920a03fb17af7abb9f119b5ace93ae675",
             "shasum": ""
         },
         "require": {
             "josantonius/url": "^1.1.2",
             "php": "^5.6 || ^7.0"
         },
-        "time": "2017-06-24 16:55:50",
+        "time": "2017-06-26 02:38:04",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -283,18 +283,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Josantonius/PHP-Hook.git",
-            "reference": "d1b179768d01271d8367a8c791d65b4cd9d5dccb"
+            "reference": "c3489456ec2d964467ddc1ee75573b5f694537e7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Josantonius/PHP-Hook/zipball/d1b179768d01271d8367a8c791d65b4cd9d5dccb",
-            "reference": "d1b179768d01271d8367a8c791d65b4cd9d5dccb",
+            "url": "https://api.github.com/repos/Josantonius/PHP-Hook/zipball/c3489456ec2d964467ddc1ee75573b5f694537e7",
+            "reference": "c3489456ec2d964467ddc1ee75573b5f694537e7",
             "shasum": ""
         },
         "require": {
             "php": "^5.6 || ^7.0"
         },
-        "time": "2017-06-24 22:41:47",
+        "time": "2017-06-26 02:16:52",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -390,12 +390,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Eliasis-Framework/Module.git",
-            "reference": "e6fbcb44e533fdb54a6ea8ebb67a36272cdb8740"
+            "reference": "b6cb835d0bf097c90aa78a7b14d7e01451f52343"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Eliasis-Framework/Module/zipball/e6fbcb44e533fdb54a6ea8ebb67a36272cdb8740",
-            "reference": "e6fbcb44e533fdb54a6ea8ebb67a36272cdb8740",
+            "url": "https://api.github.com/repos/Eliasis-Framework/Module/zipball/b6cb835d0bf097c90aa78a7b14d7e01451f52343",
+            "reference": "b6cb835d0bf097c90aa78a7b14d7e01451f52343",
             "shasum": ""
         },
         "require": {
@@ -404,7 +404,7 @@
             "josantonius/json": "^1.1.2",
             "php": "^5.6 || ^7.0"
         },
-        "time": "2017-06-24 23:48:32",
+        "time": "2017-06-26 02:39:22",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -656,12 +656,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Josantonius/Custom-Images-Grifus.git",
-            "reference": "b914aa8fbb6ee343600d763993ad8fa054e5d167"
+            "reference": "5fcc33330ba5682a0fa86ac96fb5097e743a4c68"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Josantonius/Custom-Images-Grifus/zipball/b914aa8fbb6ee343600d763993ad8fa054e5d167",
-            "reference": "b914aa8fbb6ee343600d763993ad8fa054e5d167",
+            "url": "https://api.github.com/repos/Josantonius/Custom-Images-Grifus/zipball/5fcc33330ba5682a0fa86ac96fb5097e743a4c68",
+            "reference": "5fcc33330ba5682a0fa86ac96fb5097e743a4c68",
             "shasum": ""
         },
         "require": {
@@ -673,7 +673,7 @@
             "josantonius/wp_register": "^1.0.2",
             "php": "^5.3 || ^7.0"
         },
-        "time": "2017-06-24 22:20:00",
+        "time": "2017-06-25 00:28:57",
         "type": "eliasis-module",
         "installation-source": "dist",
         "autoload": {

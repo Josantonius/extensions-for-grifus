@@ -39,6 +39,8 @@ class Launcher extends Controller {
 
         App::ExtensionsForGrifus()->set('main', $this);
 
+        Hook::getInstance(App::$id);
+
         Hook::doAction('launch-modules');
     }
 

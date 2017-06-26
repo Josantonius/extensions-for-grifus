@@ -187,6 +187,8 @@ class Module {
 
             $that->_addResources();
 
+            Hook::getInstance(App::$id);
+
             Hook::doAction('module-load');
 
             if (in_array($action, self::$hooks)) {
@@ -594,6 +596,8 @@ class Module {
 
         if (isset($module['hooks'])) {
 
+            Hook::getInstance(App::$id);
+            
             Hook::addActions($module['hooks']);
         } 
 
