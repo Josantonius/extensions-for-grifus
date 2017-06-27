@@ -9,10 +9,3 @@ docs/*.pyc
 .git*/
 .idea
 .DS_STORE
-branches/
-tags/
-.svn/
-search-inside.zip
-.svn-prop.tmp.swp
-svn-prop.tmp
-versions/

@@ -1,8 +1,7 @@
 === Extensions For Grifus ===
 Contributors: josantonius
 Donate link: https://paypal.me/Josantonius
-Tags: Grifus, Grifus theme, Custom images, Custom Rating, Grifus Extensions, Grifus modules
-
+Tags: Grifus, Grifus-theme, Custom-images, Custom-Rating, Grifus-Extensions, Grifus-modules
 Requires at least: 3.5
 Tested up to: 4.8
 Stable tag: 1.0.0
