@@ -54,6 +54,18 @@ class Launcher extends Controller {
      */
     public function activation() {
 
+        if (!function_exists('grifus_users')) {
+
+            deactivate_plugins(basename( __FILE__ ));
+
+            $message = __(
+                'Extensions For Grifus requires "Grifus theme".', 
+                'extensions-for-grifus'
+            );
+
+            wp_die($message);
+        }
+
         check_admin_referer("activate-plugin_{$_REQUEST['plugin']}");
 
         $this->model->setOptions();
@@ -146,27 +158,63 @@ class Launcher extends Controller {
     }
 
     /**
-     * Check if it is after inserting post.
+     * Check if it is after inserting or updating post.
      * 
      * @since 1.0.0
+     *
+     * @param object $post → (WP_Post) post object
      * 
      * @return boolean
      */
-    public function isAfterInsertPost() {
+    public function isAfterInsertPost($post, $update) {
 
-        if (!is_admin()) {
+        if (!isset($post->post_status, $post->post_type)) {
 
             return false;
         }
 
-        $current = get_current_screen();
+        $isRevision = ($post->post_type   == 'revision');
+        $isInherit  = ($post->post_status == 'inherit');
 
-        if (isset($current->id)) {
+        return ($isRevision && $isInherit && !$update);
+    }
 
-            return ($current->id === 'post' && $current->action === '');
+    /**
+     * Check if it is after updating post.
+     * 
+     * @since 1.0.1
+     *
+     * @param object $post   → (WP_Post) post object
+     * @param object $update → true if update post
+     * 
+     * @return boolean
+     */
+    public function isAfterUpdatePost($post, $update) {
+
+        return ($this->isPublishPost($post) && $update);
+    }
+
+    /**
+     * Check if it is a publication page and published.
+     * 
+     * @since 1.0.1
+     *
+     * @param object $post   → (WP_Post) post object
+     * @param object $update → true if update post
+     * 
+     * @return boolean
+     */
+    public function isPublishPost($post) {
+
+        if (!isset($post->post_status, $post->post_type)) {
+
+            return false;
         }
 
-        return false;
+        $isPost    = ($post->post_type   == 'post');
+        $isPublish = ($post->post_status == 'publish');
+
+        return ($isPost && $isPublish);
     }
 
     /**

@@ -59,7 +59,7 @@ $data = App::instance('Rating', 'admin-component')->getPluginRating($slug);
                     <p class="jst-dialog-subtitle"><?= __('Did you know that you aren\'t using the free version of the plugin? This is the pro version at no cost to you. Why do I do this? Maybe some can not afford to buy it and I want to prevent it from being downloaded from any place infected with malicious code and ruin your website, I want you to try it freely and I want you to have the opportunity to collaborate on this', 'extensions-for-grifus') ?> <a href="https://github.com/Josantonius/Extensions-For-Grifus.git/" target="_blank"><?= __('open source project', 'extensions-for-grifus') ?></a> <?= __('if you want it.', 'extensions-for-grifus') ?>
                     </p><br>
                     <p class="jst-dialog-subtitle"><?= __('Your contribution and', 'extensions-for-grifus') ?> <a href="#" target="_blank"><?= __('feedback', 'extensions-for-grifus') ?></a> <?= __('will help me keep updated and keep developing new versions for this plugin. Thank you!', 'extensions-for-grifus') ?>
-                        <i class="material-icons icon-satisfied">sentiment_very_satisfied</i>
+                        <span class="icon-satisfied"><i class="material-icons">sentiment_very_satisfied</i></span>
                     </p><br><br>
                     <a href="https://www.paypal.me/Josantonius" class="api-key-button" target="_blank">
                         <button id="paypal-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">

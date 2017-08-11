@@ -4,7 +4,7 @@ Donate link: https://paypal.me/Josantonius
 Tags: Grifus, Grifus-theme, Custom-images, Custom-Rating, Grifus-Extensions, Grifus-modules
 Requires at least: 3.5
 Tested up to: 4.8
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,7 +74,32 @@ Extensions For Grifus is available in english and spanish language.
 
 == Changelog ==
 
+= 1.0.1 Extensions For Grifus =
+
+* Bug fix in the Josantonius\WP_Register library.
+
+* The `Custom Rating Grifus module` was updated to version 1.0.1.
+
+* [Custom Rating Grifus module] Now, on sites that use WP Super Cache it will automatically clear cache when the ratings change.
+
+* [Custom Rating Grifus module] Added a option in the menu to set whether to restart the rating when adding a new movie.
+
+* [Custom Rating Grifus module] Added a section to manually set votes when updating movie.
+
+* [Custom Rating Grifus module] The rating has been improved on the front end.
+
+* The `Custom Images Grifus module` was updated to version 1.0.1.
+
+* [Custom Images Grifus module] Images attached will now be deleted when a movie is deleted.
+
+* [Custom Images Grifus module] Added a option in the menu to set whether to replace images when adding a new movie.
+
+* Added `ExtensionsForGrifus\Controller\Launcher\Launcher->isAfterUpdatedPost()` method.
+
+* Added `ExtensionsForGrifus\Controller\Launcher\Launcher->isPublishPost()` method.
+
 = 1.0.0 Extensions For Grifus =
+
 * Added `ExtensionsForGrifus\Controller\Launcher\Launcher` class.
 * Added `ExtensionsForGrifus\Controller\Launcher\Launcher->init()` method.
 * Added `ExtensionsForGrifus\Controller\Launcher\Launcher->activation()` method.
@@ -173,3 +198,10 @@ Extensions For Grifus is available in english and spanish language.
 
 = 1.0.0 =
 * First version.
+
+= 1.0.1 =
+* Bug fix in the Josantonius\WP_Register library.
+
+* The `Custom Rating Grifus module` was updated to version 1.0.1.
+
+* The `Custom Images Grifus module` was updated to version 1.0.1.

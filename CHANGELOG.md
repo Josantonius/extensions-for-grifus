@@ -1,5 +1,29 @@
 # CHANGELOG
 
+## 1.0.1 - 2017-08-11
+
+* Bug fix in the Josantonius\WP_Register library.
+
+* The `Custom Rating Grifus module` was updated to version 1.0.1.
+
+* [Custom Rating Grifus module] Now, on sites that use WP Super Cache it will automatically clear cache when the ratings change.
+
+* [Custom Rating Grifus module] Added a option in the menu to set whether to restart the rating when adding a new movie.
+
+* [Custom Rating Grifus module] Added a section to manually set votes when updating movie.
+
+* [Custom Rating Grifus module] The rating has been improved on the front end.
+
+* The `Custom Images Grifus module` was updated to version 1.0.1.
+
+* [Custom Images Grifus module] Images attached will now be deleted when a movie is deleted.
+
+* [Custom Images Grifus module] Added a option in the menu to set whether to replace images when adding a new movie.
+
+* Added `ExtensionsForGrifus\Controller\Launcher\Launcher->isAfterUpdatedPost()` method.
+
+* Added `ExtensionsForGrifus\Controller\Launcher\Launcher->isPublishPost()` method.
+
 ## 1.0.0 - 2017-05-27
 
 * Added `ExtensionsForGrifus\Controller\Launcher\Launcher` class.
