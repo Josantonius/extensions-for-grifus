@@ -120,6 +120,9 @@ return [
         				],
         			],
         			'template' => [
+                        'meta-boxes' => [
+                            'wp-insert-post.php',
+                        ],
         				'page' => [
 	        				'custom-rating.php',
         				],
