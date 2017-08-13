@@ -46,6 +46,7 @@ class Launcher extends Model {
             if ($installed_version < $actualVersion) {
 
                 update_option($slug . '-version', $actualVersion);
+                update_option($slug . '-check-updates', 0);
             }
         }
     }
