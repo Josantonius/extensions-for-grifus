@@ -4,7 +4,7 @@ Donate link: https://paypal.me/Josantonius
 Tags: Grifus, Grifus-theme, Custom-images, Custom-Rating, Grifus-Extensions, Grifus-modules
 Requires at least: 3.5
 Tested up to: 4.8
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,7 +51,7 @@ Replaces IMDB rating by your own rating system in Grifus theme. Replaces the sta
 
 = Does it work with the latest version of the Grifus theme? =
 
-Yes, this plugin was tested with 4.0.3 version of Grifus theme.
+Yes, this plugin was tested with 4.0.2.6 and 4.0.3 versions of Grifus theme.
 
 = Is it compatible with HipHop Virtual Machine (HHVM)? =
 
@@ -73,6 +73,14 @@ Yes, it is compatible.
 Extensions For Grifus is available in english and spanish language.
 
 == Changelog ==
+
+= 1.0.2 Extensions For Grifus =
+
+* The `Custom Rating Grifus module` was updated to version 1.0.2.
+
+* [Custom Rating Grifus module] Fixed bug on archive or search pages, now will also replace the IMDB legend by TOTAL.
+
+* [Custom Rating Grifus module] Now when manipulate it the rating of the movie from the administration panel will show the total number of votes and the rating in real time.
 
 = 1.0.1 Extensions For Grifus =
 
@@ -205,3 +213,6 @@ Extensions For Grifus is available in english and spanish language.
 * The `Custom Rating Grifus module` was updated to version 1.0.1.
 
 * The `Custom Images Grifus module` was updated to version 1.0.1.
+
+= 1.0.2 =
+* The `Custom Rating Grifus module` was updated to version 1.0.2.

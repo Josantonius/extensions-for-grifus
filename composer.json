@@ -1,6 +1,6 @@
 {
     "name":        "josantonius/extensions-for-grifus",
-    "version":     "1.0.1",
+    "version":     "1.0.2",
     "description": "Extensions for Grifus theme.",
     "type": "wordpress-plugin",
     "keywords": [

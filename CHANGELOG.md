@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 1.0.2 - 2017-08-13
+
+* The `Custom Rating Grifus module` was updated to version 1.0.2.
+
+* [Custom Rating Grifus module] Fixed bug on archive or search pages, now will also replace the IMDB legend by TOTAL.
+
+* [Custom Rating Grifus module] Now when manipulate it the rating of the movie from the administration panel will show the total number of votes and the rating in real time.
+
 ## 1.0.1 - 2017-08-11
 
 * Bug fix in the Josantonius\WP_Register library.
