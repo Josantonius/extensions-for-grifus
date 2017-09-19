@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## 1.0.3 - 2017-09-19
+
+* Libraries were improved.
+
+* The extensions page was improved and some bugs were fixed.
+
+* Now in the management of extensions `Vue.js` will be used instead of `JQuery`.
+
+* Extension management will now be handled from the `Eliasis\Complements` library.
+
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->getModulesInfo()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->moduleStatusHandler()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->installModule()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->uninstallModule()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->hasNewVersion()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->updated()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->runAjax()` method.
+
+* Deleted `extensions-for-grifus-admin/src/template/pages/extensions.php` file.
+
 ## 1.0.2 - 2017-08-13
 
 * The `Custom Rating Grifus module` was updated to version 1.0.2.

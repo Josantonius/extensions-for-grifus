@@ -2,9 +2,9 @@
 Contributors: josantonius
 Donate link: https://paypal.me/Josantonius
 Tags: Grifus, Grifus-theme, Custom-images, Custom-Rating, Grifus-Extensions, Grifus-modules
-Requires at least: 3.5
+Requires at least: 4
 Tested up to: 4.8
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,8 +59,8 @@ Yes, it is compatible.
 
 = Minimum Requirements =
 
-* WordPress 3.5 or greater
-* PHP version 5.3 or greater
+* WordPress 4 or greater
+* PHP version 5.6 or greater
 
 == Screenshots ==
 1. Extensions For Grifus (English)
@@ -73,6 +73,25 @@ Yes, it is compatible.
 Extensions For Grifus is available in english and spanish language.
 
 == Changelog ==
+
+= 1.0.3 Extensions For Grifus =
+* Libraries were improved.
+
+* The extensions page was improved and some bugs were fixed.
+
+* Now in the management of extensions `Vue.js` will be used instead of `JQuery`.
+
+* Extension management will now be handled from the `Eliasis\Complements` library.
+
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->getModulesInfo()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->moduleStatusHandler()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->installModule()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->uninstallModule()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->hasNewVersion()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->updated()` method.
+* Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->runAjax()` method.
+
+* Deleted `extensions-for-grifus-admin/src/template/pages/extensions.php` file.
 
 = 1.0.2 Extensions For Grifus =
 
@@ -216,3 +235,12 @@ Extensions For Grifus is available in english and spanish language.
 
 = 1.0.2 =
 * The `Custom Rating Grifus module` was updated to version 1.0.2.
+
+= 1.0.3 =
+* Libraries were improved.
+
+* The extensions page was improved and some bugs were fixed.
+
+* Now in the management of extensions `Vue.js` will be used instead of `JQuery`.
+
+* Extension management will now be handled from the `Eliasis\Complements` library.

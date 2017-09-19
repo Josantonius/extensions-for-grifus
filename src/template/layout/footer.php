@@ -9,7 +9,6 @@
  * @since      1.0.0
  */
 ?>
-        </div>
     </main>
 </div>
 <div id="jst-footer">

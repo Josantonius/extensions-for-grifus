@@ -5984,6 +5984,9 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label, .mdl-textfield.is-disab
 
 #donate-button {
   background: crimson;
+  color: white;
+  border-radius: 50%;
+  -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
   position: absolute;
   right: 0;
   margin-right: 7px;
@@ -6095,67 +6098,7 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label, .mdl-textfield.is-disab
 /**
  * Extensions page
  */
-/**
- * Modules
- */
-.card-title {
-  color: #23282d !important; }
 
-.jst-card {
-  max-width: 750px; }
-
-.jst-card--border {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  width: 100% !important; }
-
-.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 177px; }
-
-#custom-section {
-  padding: 16px 0px; }
-
-.module-btn {
-  float: left;
-  width: 95px; }
-
-.module-btn-active {
-  background-color: #009688 !important; }
-
-.module-btn-uninstall {
-  background-color: #d91e18 !important;
-  margin-left: 8px;
-  position: absolute; }
-
-.module-btn-outdated, .module-btn-uninstalled {
-  background-color: #0073aa !important;
-  width: initial; }
-
-.module-state-btn {
-  margin: 5px 0px -13px -15px;
-  display: -webkit-box;
-  display: -webkit-inline-box;
-  display: contents; }
-
-.module-btn[disabled][disabled] {
-  background-color: #f1f1f1 !important; }
-
-@media (min-width: 840px) and (max-width: 927px) {
-  .module-btn-uninstall {
-    font-size: 13px;
-    width: 103px;
-    padding: 0px; }
-
-  .module-btn {
-    font-size: 13px; } }
-@media (min-width: 960px) and (max-width: 1054px) {
-  .module-btn-uninstall {
-    font-size: 13px;
-    width: 103px;
-    padding: 0px; }
-
-  .module-btn {
-    font-size: 13px; } }
 /**
  * Footer
  */
@@ -6207,4 +6150,6 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label, .mdl-textfield.is-disab
   color: #666;
   margin-left: 2px; }
 
+.mdl-button--raised:focus:not(:active) {
+  box-shadow: none !important; }
 /*# sourceMappingURL=extensions-for-grifus-admin.css.map */

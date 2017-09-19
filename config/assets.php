@@ -9,11 +9,12 @@
  * @since      1.0.0
  */
 
-use Eliasis\App\App;
+use Eliasis\App\App,
+    Eliasis\Complement\Type\Module\Module;
 
-$icons = App::ExtensionsForGrifus()->get('url', 'icons');
-$css   = App::ExtensionsForGrifus()->get('url', 'css');
-$js    = App::ExtensionsForGrifus()->get('url', 'js');
+$_icons = App::ExtensionsForGrifus()->get('url', 'icons');
+$_css   = App::ExtensionsForGrifus()->get('url', 'css');
+$_js    = App::ExtensionsForGrifus()->get('url', 'js');
 
 return [
 
@@ -22,7 +23,7 @@ return [
         'js' => [
             'eliasisMaterial' => [
                 'name'      => 'eliasisMaterial',
-                'url'       => $js . 'eliasis-material.min.js',
+                'url'       => $_js . 'eliasis-material.min.js',
                 'place'     => 'admin',
                 'deps'      => ['jquery'],
                 'version'   => '1.0.0',
@@ -31,22 +32,38 @@ return [
             ],
             'extensionsForGrifusAdmin' => [
                 'name'      => 'extensionsForGrifusAdmin',
-                'url'       => $js . 'extensions-for-grifus-admin.js',
+                'url'       => $_js . 'extensions-for-grifus-admin.js',
                 'place'     => 'admin',
                 'deps'      => ['jquery'],
                 'version'   => '1.0.0',
                 'footer'    => true,
                 'params'    => [
                     'ajax_url'  => admin_url('admin-ajax.php'),
-                    'icons_url' => $icons,
+                    'icons_url' => $_icons,
                 ],
+            ],
+            'eliasisModule' => [
+                'name'      => 'eliasisModule',
+                'url'       => Module::script(),
+                'place'     => 'admin',
+                'version'   => '1.0.0',
+                'footer'    => true,
+                'params'    => [],
             ],
         ],
 
         'css' => [
             'extensionsForGrifusAdmin' => [
                 'name'      => 'extensionsForGrifusAdmin',
-                'url'       => $css . 'extensions-for-grifus-admin.css',
+                'url'       => $_css . 'extensions-for-grifus-admin.css',
+                'place'     => 'admin',
+                'deps'      => [],
+                'version'   => '1.0.0',
+                'media'     => '',
+            ],
+            'eliasisModule' => [
+                'name'      => 'eliasisModule',
+                'url'       => Module::style(),
                 'place'     => 'admin',
                 'deps'      => [],
                 'version'   => '1.0.0',

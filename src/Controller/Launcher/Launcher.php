@@ -13,7 +13,6 @@ namespace ExtensionsForGrifus\Controller\Launcher;
 
 use Josantonius\Hook\Hook,
     Eliasis\Controller\Controller,
-    Eliasis\Module\Module,
     Eliasis\App\App;
                                                                               
 /**
@@ -59,6 +58,7 @@ class Launcher extends Controller {
             deactivate_plugins(basename( __FILE__ ));
 
             $message = __(
+                
                 'Extensions For Grifus requires "Grifus theme".', 
                 'extensions-for-grifus'
             );

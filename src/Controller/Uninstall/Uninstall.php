@@ -28,7 +28,7 @@ class Uninstall extends Controller {
      */
     public function removeAll() {
 
-    	$module = Module::getModulesInfo('wp-plugin-extension');
+    	$module = Module::getInfo('wp-plugin-extension');
 
         foreach ($module as $key => $value) {
         	

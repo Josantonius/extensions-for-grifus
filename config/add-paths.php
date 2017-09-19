@@ -18,8 +18,9 @@ return [
 
     'path' => [
 
-        'modules'   => $ROOT.'modules'  .$DS,
-        'public'    => $ROOT.'public'   .$DS,
+        'modules'   => $ROOT.'modules'.$DS,
+        'plugins'   => $ROOT.'plugins'.$DS,
+        'public'    => $ROOT.'public' .$DS,
         'layout'    => $ROOT.'src'.$DS.'template'.$DS.'layout'   .$DS,
         'page'      => $ROOT.'src'.$DS.'template'.$DS.'page'     .$DS,
         'component' => $ROOT.'src'.$DS.'template'.$DS.'component'.$DS,

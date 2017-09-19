@@ -16,6 +16,7 @@ return [
     'namespaces' => [
 
         'modules'         => $pluginName . '\\Modules\\',
+        'plugins'         => $pluginName . '\\Plugins\\',
         'admin-page'      => $pluginName . '\\Controller\\Admin\\Page\\',
         'admin-component' => $pluginName . '\\Controller\\Admin\\Component\\',
         'controller'      => $pluginName . '\\Controller\\',

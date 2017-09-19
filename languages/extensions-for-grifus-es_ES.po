@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Extensions For Grifus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-22 01:02+0000\n"
-"PO-Revision-Date: 2017-06-22 01:04+0000\n"
+"POT-Creation-Date: 2017-09-19 04:29+0000\n"
+"PO-Revision-Date: 2017-09-19 04:29+0000\n"
 "Last-Translator: Josantonius <hello@josantonius.com>\n"
 "Language-Team: Spanish (Spain)\n"
 "Language: es-ES\n"
@@ -13,52 +13,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco - https://localise.biz/"
 
-#: src/template/page/extensions.php:21
-msgid "Error installing module: "
-msgstr "Error al instalar el módulo:  "
+#: config/menu.php:20
+msgid "Extensions For Grifus theme"
+msgstr "Extensions For Grifus theme"
 
-#: src/Controller/Admin/Page/Extensions/Extensions.php:99
-msgid "Installing"
-msgstr "Instalando"
+#: src/Controller/Launcher/Launcher.php:60
+msgid "Extensions For Grifus requires \"Grifus theme\"."
+msgstr "Extensions For Grifus requiere \"Grifus theme\"."
 
-#: src/Controller/Admin/Page/Extensions/Extensions.php:301
-msgid "Error creating directory in:"
-msgstr "Error al crear directorio en:"
-
-#: src/Controller/Admin/Page/Extensions/Extensions.php:337
-msgid "Error to download file:"
-msgstr "Error al descargar el archivo:"
-
-#: src/Controller/Admin/Page/Extensions/Extensions.php:345
-msgid "Failed to save file to:"
-msgstr "No se pudo guardar el archivo en:"
-
-#: modules/custom-images-grifus/custom-images-grifus.php:17
-msgid "Save external IMDB images to your WordPress site."
-msgstr "Guarda las imágenes externas de IMDB en tu sitio de WordPress."
-
-#: modules/custom-rating-grifus/custom-rating-grifus.php:17
-msgid "Replaces IMDB rating by your own rating system."
-msgstr "Reemplaza valoración IMDB por tu propio sistema de valoración."
-
-#: modules/copy-movie-grifus/copy-movie-grifus.php:17
-msgid "Copy full movie information from a single button."
-msgstr "Copia la información completa de la película con un simple click."
-
-#: src/template/layout/header.php:27
+#: config/menu.php:24 src/template/layout/header.php:26
 msgid "Grifus Extensions"
 msgstr "Grifus Extensions"
 
-#: src/template/layout/header.php:30
+#: src/template/layout/header.php:29
 msgid "Rate plugin"
 msgstr "Valorar plugin"
 
 #. Name of the plugin
-#: src/template/layout/header.php:54
+#: src/template/layout/header.php:53
 msgid "Extensions For Grifus"
 msgstr "Extensions For Grifus"
 
-#: src/template/layout/header.php:58
+#: src/template/layout/header.php:57
 msgid ""
 "Hi! I'm Josantonius, the developer of this plugin. I would like to tell you "
 "something..."
@@ -66,7 +42,7 @@ msgstr ""
 "¡Hola! Soy Josantonius, el desarrollador de este plugin. Quería contarte "
 "algo..."
 
-#: src/template/layout/header.php:60
+#: src/template/layout/header.php:59
 msgid ""
 "Did you know that you aren't using the free version of the plugin? This is "
 "the pro version at no cost to you. Why do I do this? Maybe some can not "
@@ -81,23 +57,23 @@ msgstr ""
 "su sitio web, quiero que puedas probarlo libremente y que tengas la "
 "oportunidad de colaborar en este"
 
-#: src/template/layout/header.php:60
+#: src/template/layout/header.php:59
 msgid "open source project"
 msgstr "proyecto de código abierto"
 
-#: src/template/layout/header.php:60
+#: src/template/layout/header.php:59
 msgid "if you want it."
 msgstr "si así lo deseas."
 
-#: src/template/layout/header.php:62
+#: src/template/layout/header.php:61
 msgid "Your contribution and"
 msgstr "Tu contribución y"
 
-#: src/template/layout/header.php:62
+#: src/template/layout/header.php:61
 msgid "feedback"
 msgstr "comentarios"
 
-#: src/template/layout/header.php:62
+#: src/template/layout/header.php:61
 msgid ""
 "will help me keep updated and keep developing new versions for this plugin. "
 "Thank you!"
@@ -105,54 +81,17 @@ msgstr ""
 "me ayudarán a mantener actualizado y a seguir desarrollando nuevas versiones "
 "para este plugin. ¡Gracias!"
 
-#: src/template/layout/header.php:84
+#: src/template/layout/header.php:83
 msgid "CLOSE"
 msgstr "CERRAR"
 
-#: src/template/layout/footer.php:19
+#: src/template/layout/footer.php:18
 msgid "Developed by "
 msgstr "Desarrollado por"
 
-#: src/template/layout/footer.php:19
+#: src/template/layout/footer.php:18
 msgid "Author site"
 msgstr "Sitio del autor"
-
-#: src/template/page/extensions.php:49
-msgid "Uninstall"
-msgstr "Desinstalar"
-
-#: src/Model/Admin/Page/Extensions.php:146
-#: src/Model/Admin/Page/Extensions.php:204
-#: src/Model/Admin/Page/Extensions.php:214
-#: src/Controller/Admin/Page/Extensions/Extensions.php:157
-#: src/Controller/Admin/Page/Extensions/Extensions.php:228
-#: src/Controller/Admin/Page/Extensions/Extensions.php:254
-msgid "activate"
-msgstr "Activar"
-
-#: src/Model/Admin/Page/Extensions.php:154
-#: src/Model/Admin/Page/Extensions.php:208
-#: src/Controller/Admin/Page/Extensions/Extensions.php:165
-#: src/Controller/Admin/Page/Extensions/Extensions.php:232
-#: src/Controller/Admin/Page/Extensions/Extensions.php:264
-msgid "install"
-msgstr "Instalar"
-
-#: src/Model/Admin/Page/Extensions.php:160
-#: src/Model/Admin/Page/Extensions.php:200
-#: src/Controller/Admin/Page/Extensions/Extensions.php:171
-#: src/Controller/Admin/Page/Extensions/Extensions.php:224
-#: src/Controller/Admin/Page/Extensions/Extensions.php:249
-msgid "active"
-msgstr "Activo"
-
-#: src/Controller/Admin/Page/Extensions/Extensions.php:98
-msgid "Updating"
-msgstr "Actualizando"
-
-#: src/Controller/Admin/Page/Extensions/Extensions.php:177
-msgid "update"
-msgstr "Actualizar"
 
 #. Description of the plugin
 msgid "Extensions for Grifus theme."

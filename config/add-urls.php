@@ -17,11 +17,8 @@ return [
 
     'url' => [
 
-        'js'             => $url . 'js/'     ,
-        'css'            => $url . 'css/'    ,
-        'icons'          => $url . 'images/icons/',
-        'wp-plugins'     => 'https://wordpress.org/support/plugin/',
-        'github-api'     => 'https://api.github.com/repos/',
-        'github-content' => 'https://raw.githubusercontent.com/Josantonius/',
+        'js'    => $url . 'js/',
+        'css'   => $url . 'css/',
+        'icons' => $url . 'images/icons/'
     ],
 ];

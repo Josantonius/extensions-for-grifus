@@ -29,6 +29,8 @@ class Launcher extends Model {
      * @uses get_option()    → option value based on an option name
      * @uses add_option()    → add a new option to Wordpress options
      * @uses update_option() → update a named option/value
+     *
+     * @return void
      */
     public function setOptions() {
 

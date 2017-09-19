@@ -17,8 +17,14 @@ return [
 
 	'menu' => [
 		'top-level' => [
-			'title'      => __('Extensions For Grifus theme', 'custom-images-grifus'),
-			'name'       => __('Grifus Extensions', 'extensions-for-grifus'),
+			'title'      => __(
+				'Extensions For Grifus theme', 
+				'extensions-for-grifus'
+			),
+			'name'       => __(
+				'Grifus Extensions', 
+				'extensions-for-grifus'
+			),
 			'capability' => 'manage_options',
 			'slug'       => 'extensions-for-grifus',
 			'function'   => '',

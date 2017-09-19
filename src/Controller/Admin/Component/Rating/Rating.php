@@ -12,7 +12,7 @@
 namespace ExtensionsForGrifus\Controller\Admin\Component\Rating;
 
 use Eliasis\App\App,
-    Eliasis\Module\Module,
+    Eliasis\Complement\Type\Plugin\Plugin,
     Eliasis\Controller\Controller;
     
 /**
@@ -41,9 +41,9 @@ class Rating extends Controller {
         
         $data['plugin-url-review'] = $url;
 
-        if (Module::exists('WP_Plugin_Info')) {
+        if (Plugin::exists('WP_Plugin_Info')) {
 
-            $rating = Module::WP_Plugin_Info()->instance('Info')
+            $rating = Plugin::WP_Plugin_Info()->instance('Info')
                                               ->get('rating', $slug);
 
             $rating = ($rating !== false) ? $rating : 5;
