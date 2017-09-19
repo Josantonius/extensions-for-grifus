@@ -2,7 +2,7 @@
 Contributors: josantonius
 Donate link: https://paypal.me/Josantonius
 Tags: Grifus, Grifus-theme, Custom-images, Custom-Rating, Grifus-Extensions, Grifus-modules
-Requires at least: 4
+Requires at least: 4.0.0
 Tested up to: 4.8
 Stable tag: 1.0.3
 License: GPLv2 or later
@@ -59,7 +59,7 @@ Yes, it is compatible.
 
 = Minimum Requirements =
 
-* WordPress 4 or greater
+* WordPress 4.0.0 or greater
 * PHP version 5.6 or greater
 
 == Screenshots ==

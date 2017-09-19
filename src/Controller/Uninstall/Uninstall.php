@@ -11,8 +11,8 @@
 
 namespace ExtensionsForGrifus\Controller\Uninstall;
 
-use Eliasis\Module\Module,
-	Eliasis\Controller\Controller;
+use Eliasis\Complement\Type\Module\Module,
+    Eliasis\Controller\Controller;
 
 /**
  * Main method for cleaning and removal of components.
@@ -28,11 +28,13 @@ class Uninstall extends Controller {
      */
     public function removeAll() {
 
-    	$module = Module::getInfo('wp-plugin-extension');
+        $module = Module::getInfo('wp-plugin-extension');
 
         foreach ($module as $key => $value) {
-        	
-        	Module::remove($module[$key]['id']);
+            
+            $name = $module[$key]['id'];
+
+            Module::$name()->remove();
         }
 
         $this->model->removeAll();   
