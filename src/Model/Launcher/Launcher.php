@@ -52,4 +52,34 @@ class Launcher extends Model {
             }
         }
     }
+
+    /**
+     * Set module states.
+     * 
+     * @since 1.0.3
+     *
+     * @uses get_option()    → option value based on an option name
+     * @uses add_option()    → add a new option to Wordpress options
+     * @uses update_option() → update a named option/value
+     *
+     * @return void
+     */
+    public function setModuleStates() {
+
+        $slug = App::ExtensionsForGrifus()->get('slug');
+
+        if (file_exists($file = App::MODULES() . '.modules-states.jsond')) {
+
+            $file = file_get_contents($file);
+
+            if (get_option($slug . '-modules-states') !== false) {
+
+                update_option($slug . '-modules-states' , $file);
+             
+            } else {
+             
+                add_option($slug . '-modules-states', $file);
+            }
+        }
+    }
 }

@@ -124,19 +124,11 @@ class Extensions extends Controller {
 
         App::id('ExtensionsForGrifus');
 
-        $layout = App::ExtensionsForGrifus()->get('path', 'layout');
+        $layout = App::get('path', 'layout');
 
         $this->view->renderizate($layout, 'header');
 
-        Module::render(
-
-            'wp-plugin-extension', 
-            [
-                'CopyMovieGrifus' => 'https://raw.githubusercontent.com/Josantonius/Copy-Movie-Grifus/master/copy-movie-grifus.jsond',
-                'CustomImagesGrifus' => 'https://raw.githubusercontent.com/Josantonius/Custom-Images-Grifus/master/custom-images-grifus.jsond',
-                'CustomRatingGrifus' => 'https://raw.githubusercontent.com/Josantonius/Custom-Rating-Grifus/master/custom-rating-grifus.jsond',
-            ]
-        );
+        Module::render('wp-plugin-extension', App::get('remote-modules'));
 
         $this->view->renderizate($layout, 'footer');     
     }

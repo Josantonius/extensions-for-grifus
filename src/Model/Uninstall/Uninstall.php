@@ -37,8 +37,10 @@ class Uninstall extends Model {
 
         delete_option($slug . '-version');
         delete_option($slug . '-check-updates');
+        delete_option($slug . '-modules-states');
         // For site options in Multisite
         delete_site_option($slug . '-version');
         delete_site_option($slug . '-check-updates');  
+        delete_site_option($slug . '-modules-states');  
     }
 }

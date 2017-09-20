@@ -10,6 +10,10 @@
 
 * Extension management will now be handled from the `Eliasis\Complements` library.
 
+* Added `ExtensionsForGrifus\Model\Launcher\Launcher->setModuleStates()` method.
+
+* Added `ExtensionsForGrifus\Controller\Launcher\Launcher->AfterUpgradePlugin()` method.
+
 * Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->getModulesInfo()` method.
 * Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->moduleStatusHandler()` method.
 * Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->installModule()` method.
@@ -19,6 +23,8 @@
 * Deleted `ExtensionsForGrifus\Controller\Admin\Page\Extensions\Extensions->runAjax()` method.
 
 * Deleted `extensions-for-grifus-admin/src/template/pages/extensions.php` file.
+
+* Added `extensions-for-grifus-admin/config/modules.php` file.
 
 ## 1.0.2 - 2017-08-13
 

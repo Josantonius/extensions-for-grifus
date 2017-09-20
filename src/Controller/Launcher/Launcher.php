@@ -13,6 +13,7 @@ namespace ExtensionsForGrifus\Controller\Launcher;
 
 use Josantonius\Hook\Hook,
     Eliasis\Controller\Controller,
+    Eliasis\Complement\Type\Module\Module,
     Eliasis\App\App;
                                                                               
 /**
@@ -41,6 +42,13 @@ class Launcher extends Controller {
         Hook::getInstance(App::$id);
 
         Hook::doAction('launch-modules');
+
+        $this->model->setModuleStates();
+
+        add_action('upgrader_process_complete',
+
+            [$this, 'AfterUpgradePlugin'], 10, 2
+        );
     }
 
     /**
@@ -232,5 +240,46 @@ class Launcher extends Controller {
         }
 
         return (is_single() && is_numeric(get_the_ID()));
+    }
+
+    /**
+     * Run after updating the plugin to install the modules that were in use.
+     * 
+     * @since 1.0.3
+     *
+     * @param object $upgraderObject → upgrader object
+     * @param array  $options        → upgrader options
+     * 
+     * @return void
+     */
+    public function AfterUpgradePlugin($upgraderObject, $options) {
+
+        $slug = App::ExtensionsForGrifus()->get('slug');
+
+        $pathName = plugin_basename(App::ROOT() . $slug . '.php');
+
+        if ($options['action'] == 'update' && 
+            $options['type']   == 'plugin' &&
+            in_array($pathName, $options['plugins'])) {
+
+            $modules = json_decode(get_option($slug . '-modules-states'), 1);
+
+            $remote = App::get('remote-modules');
+
+            foreach ($modules['ExtensionsForGrifus'] as $module => $value) {
+
+                $state = $modules['ExtensionsForGrifus'][$module]['state'];
+
+                if ($state != 'uninstalled') {
+
+                    Module::load($remote[$module]);
+
+                    Module::$module()->install();
+
+                    Module::$module()->setState($state);
+                }
+            }
+            
+        }
     }
 }
