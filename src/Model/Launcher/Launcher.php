@@ -58,28 +58,27 @@ class Launcher extends Model {
      * 
      * @since 1.0.3
      *
+     * @param array $states → modules states
+     *
      * @uses get_option()    → option value based on an option name
      * @uses add_option()    → add a new option to Wordpress options
      * @uses update_option() → update a named option/value
      *
      * @return void
      */
-    public function setModuleStates() {
+    public function setModuleStates($states) {
 
         $slug = App::ExtensionsForGrifus()->get('slug');
 
-        if (file_exists($file = App::MODULES() . '.modules-states.jsond')) {
+        $states = json_encode($states, true);
 
-            $file = file_get_contents($file);
+        if (get_option($slug . '-modules-states') !== false) {
 
-            if (get_option($slug . '-modules-states') !== false) {
-
-                update_option($slug . '-modules-states' , $file);
-             
-            } else {
-             
-                add_option($slug . '-modules-states', $file);
-            }
+            update_option($slug . '-modules-states', $states);
+         
+        } else {
+         
+            add_option($slug . '-modules-states', $states);
         }
     }
 }

@@ -43,7 +43,10 @@ class Launcher extends Controller {
 
         Hook::doAction('launch-modules');
 
-        $this->model->setModuleStates();
+        Hook::addAction('Eliasis/Complement/after_set_states',
+
+            [$this->model, 'setModuleStates'], 8, 2
+        );
 
         add_action('upgrader_process_complete',
 
@@ -136,7 +139,7 @@ class Launcher extends Controller {
      * @param array  $pages 
      * @param string $namespace
      *
-     * @return
+     * @return void
      */
     public function setMenus($pages = [], $namespace = '') {
 
