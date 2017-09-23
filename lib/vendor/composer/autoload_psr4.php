@@ -17,7 +17,7 @@ return array(
     'ExtensionsForGrifus\\Modules\\CustomImagesGrifus\\' => array($baseDir . '/modules/custom-images-grifus/src'),
     'ExtensionsForGrifus\\Modules\\CopyMovieGrifus\\' => array($baseDir . '/modules/copy-movie-grifus/src'),
     'ExtensionsForGrifus\\' => array($baseDir . '/src'),
-    'Eliasis\\Plugins\\WP_Plugin_Info\\' => array($baseDir . '/plugins/wp_plugin-info/src'),
+    'Eliasis\\Plugins\\WP_Plugin_Info\\' => array($vendorDir . '/josantonius/wp_plugin-info/src'),
     'Eliasis\\Complement\\' => array($vendorDir . '/eliasis-framework/complement/src'),
     'Eliasis\\' => array($vendorDir . '/eliasis-framework/eliasis/src'),
     'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src/Composer/Installers'),
