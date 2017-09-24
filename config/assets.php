@@ -32,7 +32,7 @@ return [
             ],
             'extensionsForGrifusAdmin' => [
                 'name'      => 'extensionsForGrifusAdmin',
-                'url'       => $_js . 'extensions-for-grifus-admin.js',
+                'url'       => $_js . 'extensions-for-grifus-admin.min.js',
                 'place'     => 'admin',
                 'deps'      => ['jquery'],
                 'version'   => '1.0.0',
@@ -55,7 +55,7 @@ return [
         'css' => [
             'extensionsForGrifusAdmin' => [
                 'name'      => 'extensionsForGrifusAdmin',
-                'url'       => $_css . 'extensions-for-grifus-admin.css',
+                'url'       => $_css . 'extensions-for-grifus-admin.min.css',
                 'place'     => 'admin',
                 'deps'      => [],
                 'version'   => '1.0.0',

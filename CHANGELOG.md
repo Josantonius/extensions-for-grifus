@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.0.4 - 2017-09-24
+
+* Updating the plugin will now keep the current modules and statuses.
+
+* Gulp was added to the project for task automation.
+
 ## 1.0.3 - 2017-09-19
 
 * Libraries were improved.

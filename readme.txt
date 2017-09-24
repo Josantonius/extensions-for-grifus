@@ -4,7 +4,7 @@ Donate link: https://paypal.me/Josantonius
 Tags: Grifus, Grifus-theme, Custom-images, Custom-Rating, Grifus-Extensions, Grifus-modules
 Requires at least: 4.0.0
 Tested up to: 4.8
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -73,6 +73,11 @@ Yes, it is compatible.
 Extensions For Grifus is available in english and spanish language.
 
 == Changelog ==
+
+= 1.0.4 Extensions For Grifus =
+* Updating the plugin will now keep the current modules and statuses.
+
+* Gulp was added to the project for task automation.
 
 = 1.0.3 Extensions For Grifus =
 * Libraries were improved.
@@ -250,3 +255,8 @@ Extensions For Grifus is available in english and spanish language.
 * Now in the management of extensions `Vue.js` will be used instead of `JQuery`.
 
 * Extension management will now be handled from the `Eliasis\Complements` library.
+
+= 1.0.4 =
+* Updating the plugin will now keep the current modules and statuses.
+
+* Gulp was added to the project for task automation.

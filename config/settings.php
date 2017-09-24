@@ -12,8 +12,8 @@
 return [
 
 	'slug' 				  => dirname(dirname(plugin_basename( __FILE__))),
-	'version'             => '1.0.3',
+	'version'             => '1.0.4',
     'interval'            => (24*60*60) * 1, // once a day
-    'minimum_wp_version'  => '4',
+    'minimum_wp_version'  => '4.0.0',
     'minimum_php_version' => '5.6',
 ];

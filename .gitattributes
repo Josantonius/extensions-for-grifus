@@ -1,5 +1,8 @@
 /public/sass export-ignore
+/public/css/source/extensions-for-grifus-admin.css.map export-ignore
+/public/css/extensions-for-grifus-admin.css.min.map export-ignore
 /resources export-ignore
+/node_modules export-ignore
 /lib export-ignore
 .gitattributes export-ignore
 .gitignore export-ignore
@@ -10,3 +13,5 @@ README.md export-ignore
 README-ES.md export-ignore
 .editorconfig export-ignore
 composer.lock export-ignore
+gulpfile.js export-ignore
+package-lock.json export-ignore
