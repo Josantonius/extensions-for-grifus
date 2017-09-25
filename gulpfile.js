@@ -10,125 +10,127 @@
 
 // Dependencies
 
+// Dependencies
+
 var gulp         = require('gulp'),
-  	concat       = require('gulp-concat'),
-  	uglify       = require('gulp-uglify'),
-  	sass         = require('gulp-sass'),
-  	plumber      = require('gulp-plumber'),
-  	rename       = require('gulp-rename'),
-  	cleanCSS     = require('gulp-clean-css'),
-  	notify       = require('gulp-notify'),
-  	sourcemaps   = require('gulp-sourcemaps'),
-  	autoprefixer = require('gulp-autoprefixer');
+    concat       = require('gulp-concat'),
+    uglify       = require('gulp-uglify'),
+    sass         = require('gulp-sass'),
+    plumber      = require('gulp-plumber'),
+    rename       = require('gulp-rename'),
+    cleanCSS     = require('gulp-clean-css'),
+    notify       = require('gulp-notify'),
+    sourcemaps   = require('gulp-sourcemaps'),
+    autoprefixer = require('gulp-autoprefixer');
 
 // Tasks
 
 gulp.task('js', function () {
 
-	var file = 'public/js/source/material.js',
-			min  = 'eliasis-material.min.js',
-			dest = 'public/js/',
+    var file = 'public/js/source/material.js',
+        min  = 'eliasis-material.min.js',
+        dest = 'public/js/',
 
-			notifyOptions = { 
+        notifyOptions = { 
 
-				message: 'Scripts task complete' 
-			};
+            message: 'Scripts task complete' 
+        };
 
-	gulp.src(file)
-		.pipe(concat(min))
-		.pipe(uglify())
-		.pipe(gulp.dest(dest))
-		.pipe(notify(notifyOptions));
+    gulp.src(file)
+        .pipe(concat(min))
+        .pipe(uglify())
+        .pipe(gulp.dest(dest))
+        .pipe(notify(notifyOptions));
 
-	var file = 'public/js/source/extensions-for-grifus-admin.js',
-		  min  = 'extensions-for-grifus-admin.min.js';
+    var file = 'public/js/source/extensions-for-grifus-admin.js',
+          min  = 'extensions-for-grifus-admin.min.js';
 
-	gulp.src(file)
-		.pipe(concat(min))
-		.pipe(uglify())
-		.pipe(gulp.dest(dest));
+    gulp.src(file)
+        .pipe(concat(min))
+        .pipe(uglify())
+        .pipe(gulp.dest(dest));
 
 });
 
 gulp.task('css', function () {
 
-	var main   = 'public/sass/admin/extensions-for-grifus-admin.sass',
-		  files  = 'public/sass/admin/**/*.sass',
-		  min    = 'extensions-for-grifus-admin.min.sass',
-		  source = 'public/css/source/',
-		  dest   = 'public/css/',
+    var main   = 'public/sass/admin/extensions-for-grifus-admin.sass',
+        files  = 'public/sass/admin/**/*.sass',
+        min    = 'extensions-for-grifus-admin.min.sass',
+        source = 'public/css/source/',
+        dest   = 'public/css/',
 
-		  sourcemapsOption = { 
+        sourcemapsOption = { 
 
-		  	content: { 
+            content: { 
 
-		  		includeContent: false 
-		  	}, 
+                includeContent: false 
+            }, 
 
-		  	init: {
+            init: {
 
-		  		loadMaps: true 
-		  	} 
-		  },
+                loadMaps: true 
+            } 
+        },
 
-			sassOptions = {
+        sassOptions = {
 
-				errLogToConsole: true, 
-				outputStyle:     'expanded' 
-			},
+            errLogToConsole: true, 
+            outputStyle:     'expanded' 
+        },
 
-			autoprefixerOptions = { 
+        autoprefixerOptions = { 
 
-				browsers: ['last 2 versions'], 
-				cascade:  true 
-			},
+            browsers: ['last 2 versions'], 
+            cascade:  true 
+        },
 
-			notifyOptions = {
+        notifyOptions = {
 
-				message: 'Styles task complete'
-			},
+            message: 'Styles task complete'
+        },
 
-			cssOptions = {
+        cssOptions = {
 
-				compatibility: 'ie8' 
-			};
+            compatibility: 'ie8' 
+        };
 
-			renameOptions = {
+        renameOptions = {
 
-				suffix: '.min'
-			};
+            suffix: '.min'
+        };
 
-	gulp.src(main)
-		.pipe(plumber())
-		.pipe(sourcemaps.init())
-		.pipe(sass(sassOptions).on('error', sass.logError))
-		.pipe(sourcemaps.write(sourcemapsOption.content))
-		.pipe(sourcemaps.init(sourcemapsOption.init))
-		.pipe(autoprefixer(autoprefixerOptions))
-		.pipe(sourcemaps.write('.'))
-		.pipe(gulp.dest(source))
-		.pipe(rename(renameOptions))
-		.pipe(cleanCSS(cssOptions))
-		.pipe(gulp.dest(dest))
-		.pipe(notify(notifyOptions));
+    gulp.src(main)
+        .pipe(plumber())
+        .pipe(sourcemaps.init())
+        .pipe(sass(sassOptions).on('error', sass.logError))
+        .pipe(sourcemaps.write(sourcemapsOption.content))
+        .pipe(sourcemaps.init(sourcemapsOption.init))
+        .pipe(autoprefixer(autoprefixerOptions))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(source))
+        .pipe(rename(renameOptions))
+        .pipe(cleanCSS(cssOptions))
+        .pipe(gulp.dest(dest))
+        .pipe(notify(notifyOptions));
 
 });
 
 gulp.task('watch', function () {
 
-	var sassFiles = [
-				'public/sass/admin/**/*.sass',
-				'public/sass/admin/extensions-for-grifus-admin.sass'
-			],
+    var sassFiles = [
+            'public/sass/admin/**/*.sass',
+            'public/sass/admin/extensions-for-grifus-admin.sass'
+        ],
 
-		  jsFiles  = [
-		  	'public/js/source/material.js',
-		  	'public/js/source/extensions-for-grifus-admin.js'
-		  ];
+        jsFiles  = [
+            'public/js/source/material.js',
+            'public/js/source/extensions-for-grifus-admin.js'
+        ];
 
-	gulp.watch(jsFiles, ['js']);
+    gulp.watch(jsFiles, ['js']);
 
-	gulp.watch(sassFiles, ['css']);
+    gulp.watch(sassFiles, ['css']);
 
 });
 
