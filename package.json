@@ -25,9 +25,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Josantonius/Extensions-For-Grifus.git"
+    "url": "https://github.com/Josantonius/Extensions-For-Grifus.git"
   },
-  "author": "osantonius",
+  "author": "Josantonius",
   "license": "GPL-2.0+",
   "bugs": {
     "url": "https://github.com/Josantonius/Extensions-For-Grifus/issues"
