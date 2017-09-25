@@ -54,11 +54,12 @@ class Launcher extends Model {
     }
 
     /**
-     * Set module states.
+     * Run after set complement state.
      * 
-     * @since 1.0.3
+     * @since 1.0.4
      *
-     * @param array $states → modules states
+     * @param string $slug   → application slug
+     * @param string $states → modules states
      *
      * @uses get_option()    → option value based on an option name
      * @uses add_option()    → add a new option to Wordpress options
@@ -66,11 +67,7 @@ class Launcher extends Model {
      *
      * @return void
      */
-    public function setModuleStates($states) {
-
-        $slug = App::ExtensionsForGrifus()->get('slug');
-
-        $states = json_encode($states, true);
+    public function saveModulesStates($slug, $states) {
 
         if (get_option($slug . '-modules-states') !== false) {
 

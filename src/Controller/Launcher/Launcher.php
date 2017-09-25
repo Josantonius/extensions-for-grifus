@@ -43,11 +43,6 @@ class Launcher extends Controller {
 
         Hook::doAction('launch-modules');
 
-        Hook::addAction('Eliasis/Complement/after_set_states',
-
-            [$this->model, 'setModuleStates'], 8, 2
-        );
-
         add_action('upgrader_process_complete',
 
             [$this, 'AfterUpgradePlugin'], 10, 2
@@ -113,6 +108,8 @@ class Launcher extends Controller {
             App::ExtensionsForGrifus()->get('pages'),
             App::ExtensionsForGrifus()->get('namespaces', 'admin-page')
         );
+
+        $this->saveModulesStates();
     }
 
     /**
@@ -246,6 +243,27 @@ class Launcher extends Controller {
     }
 
     /**
+     * Run after set complement state.
+     * 
+     * @since 1.0.4
+     *
+     * @param array $states → modules states
+     *
+     * @return void
+     */
+    public function saveModulesStates() {
+
+        $states = @file_get_contents(App::MODULES().'.modules-states.jsond');
+
+        if ($states !== false) {
+
+            $slug = App::ExtensionsForGrifus()->get('slug');
+
+            $this->model->saveModulesStates($slug, $states);
+        }
+    }
+
+    /**
      * Run after updating the plugin to install the modules that were in use.
      * 
      * @since 1.0.3
@@ -282,7 +300,6 @@ class Launcher extends Controller {
                     Module::$module()->setState($state);
                 }
             }
-            
         }
     }
 }

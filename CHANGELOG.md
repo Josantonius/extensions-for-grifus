@@ -6,6 +6,12 @@
 
 * Gulp was added to the project for task automation.
 
+* Deleted `ExtensionsForGrifus\Controller\Launcher\Launcher->AfterUpgradePlugin()` method.
+
+* Added `ExtensionsForGrifus\Controller\Launcher\Launcher->saveModulesStates()` method.
+
+* Added `ExtensionsForGrifus\Model\Launcher\Launcher->saveModulesStates()` method.
+
 ## 1.0.3 - 2017-09-19
 
 * Libraries were improved.
