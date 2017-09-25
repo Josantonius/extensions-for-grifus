@@ -41,7 +41,7 @@ gulp.task('js', function () {
         .pipe(notify(notifyOptions));
 
     var file = 'public/js/source/extensions-for-grifus-admin.js',
-          min  = 'extensions-for-grifus-admin.min.js';
+        min  = 'extensions-for-grifus-admin.min.js';
 
     gulp.src(file)
         .pipe(concat(min))
