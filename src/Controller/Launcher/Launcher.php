@@ -11,7 +11,8 @@
                                                                           
 namespace ExtensionsForGrifus\Controller\Launcher;
 
-use Josantonius\Hook\Hook,
+use Josantonius\WP_Register\WP_Register,
+    Josantonius\Hook\Hook,
     Eliasis\Controller\Controller,
     Eliasis\Complement\Type\Module\Module,
     Eliasis\App\App;
