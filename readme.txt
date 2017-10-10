@@ -73,7 +73,6 @@ Yes, it is compatible.
 Extensions For Grifus is available in english and spanish language.
 
 == Changelog ==
-
 = 1.0.5 Extensions For Grifus =
 * Added functionality to minify CSS/JS content and unify plugin files into a single file.
 
@@ -175,7 +174,6 @@ Extensions For Grifus is available in english and spanish language.
 * Updating the plugin will now keep the current modules and statuses.
 
 * Gulp was added to the project for task automation.
-
 
 = 1.0.5 Extensions For Grifus =
 * Added functionality to minify CSS/JS content and unify plugin files into a single file.

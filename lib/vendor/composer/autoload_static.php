@@ -4,13 +4,14 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit4e8a00105295a4d8bd97a25aa916c4e3
+class ComposerStaticInit6e8b6aad0cfe9ba60ddd261be97469d1
 {
     public static $prefixLengthsPsr4 = array (
         'J' => 
         array (
             'Josantonius\\WP_Register\\' => 24,
             'Josantonius\\WP_Menu\\' => 20,
+            'Josantonius\\WP_Image\\' => 21,
             'Josantonius\\Url\\' => 16,
             'Josantonius\\Json\\' => 17,
             'Josantonius\\Hook\\' => 17,
@@ -18,6 +19,9 @@ class ComposerStaticInit4e8a00105295a4d8bd97a25aa916c4e3
         ),
         'E' => 
         array (
+            'ExtensionsForGrifus\\Modules\\CustomRatingGrifus\\' => 47,
+            'ExtensionsForGrifus\\Modules\\CustomImagesGrifus\\' => 47,
+            'ExtensionsForGrifus\\Modules\\CopyMovieGrifus\\' => 44,
             'ExtensionsForGrifus\\' => 20,
             'Eliasis\\Plugins\\WP_Plugin_Info\\' => 31,
             'Eliasis\\Complement\\' => 19,
@@ -38,6 +42,10 @@ class ComposerStaticInit4e8a00105295a4d8bd97a25aa916c4e3
         array (
             0 => __DIR__ . '/..' . '/josantonius/wp_menu/src',
         ),
+        'Josantonius\\WP_Image\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/josantonius/wp_image/src',
+        ),
         'Josantonius\\Url\\' => 
         array (
             0 => __DIR__ . '/..' . '/josantonius/url/src/Url',
@@ -53,6 +61,18 @@ class ComposerStaticInit4e8a00105295a4d8bd97a25aa916c4e3
         'Josantonius\\File\\' => 
         array (
             0 => __DIR__ . '/..' . '/josantonius/file/src/File',
+        ),
+        'ExtensionsForGrifus\\Modules\\CustomRatingGrifus\\' => 
+        array (
+            0 => __DIR__ . '/../../..' . '/modules/custom-rating-grifus/src',
+        ),
+        'ExtensionsForGrifus\\Modules\\CustomImagesGrifus\\' => 
+        array (
+            0 => __DIR__ . '/../../..' . '/modules/custom-images-grifus/src',
+        ),
+        'ExtensionsForGrifus\\Modules\\CopyMovieGrifus\\' => 
+        array (
+            0 => __DIR__ . '/../../..' . '/modules/copy-movie-grifus/src',
         ),
         'ExtensionsForGrifus\\' => 
         array (
@@ -79,8 +99,8 @@ class ComposerStaticInit4e8a00105295a4d8bd97a25aa916c4e3
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit4e8a00105295a4d8bd97a25aa916c4e3::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit4e8a00105295a4d8bd97a25aa916c4e3::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6e8b6aad0cfe9ba60ddd261be97469d1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6e8b6aad0cfe9ba60ddd261be97469d1::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
