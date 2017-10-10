@@ -1,6 +1,6 @@
 {
   "name": "Extensions For Grifus WordPress plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Extensions for Grifus theme.",
   "main": "gulpfile.js",
   "directories": {

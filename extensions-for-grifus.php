@@ -5,7 +5,7 @@
  * Plugin Name: Extensions For Grifus
  * Plugin URI:  https://wordpress.org/plugins/extensions-for-grifus/
  * Description: Extensions for Grifus theme.
- * Version:     1.0.4
+ * Version:     1.0.5
  * Author:      Josantonius
  * Author URI:  https://josantonius.com/ 
  * License:     GPL-2.0+

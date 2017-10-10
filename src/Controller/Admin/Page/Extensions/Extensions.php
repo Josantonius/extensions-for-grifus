@@ -72,17 +72,8 @@ class Extensions extends Controller {
         WP_Register::add('script', $js['eliasisModule']);
         
         WP_Register::add('script', $js['eliasisMaterial']);
-        
-        $settings = $js['extensionsForGrifusAdmin'];
 
-        $params = [
-
-            'custom_nonce' => wp_create_nonce('extensionsForGrifusAdmin')
-        ];
-
-        $settings['params'] = array_merge($settings['params'], $params);
-
-        WP_Register::add('script', $settings);
+        WP_Register::add('script', $js['extensionsForGrifusAdmin']);
     }
 
     /**

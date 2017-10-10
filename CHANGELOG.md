@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.5 - 2017-10-10
+
+Added functionality to minify CSS/JS content and unify files into a single file.
+
 ## 1.0.4 - 2017-09-24
 
 * Updating the plugin will now keep the current modules and statuses.

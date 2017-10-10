@@ -36,6 +36,13 @@ class Launcher extends Controller {
 
             $this->admin();
         }
+        
+        WP_Register::unify('eliasis', [
+
+            'styles'  => App::ExtensionsForGrifus()->get('url', 'css').'min/',
+            'scripts' => App::ExtensionsForGrifus()->get('url', 'js') .'min/'
+
+        ], true);
 
         App::ExtensionsForGrifus()->set('main', $this);
 

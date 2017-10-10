@@ -125,18 +125,21 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Josantonius/WP_Register.git",
-            "reference": "283b3d5f1ba2ed95b74eb52988fe1467708818e6"
+            "reference": "294fa1de120575c88335a5fda63317b7273b539b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Josantonius/WP_Register/zipball/283b3d5f1ba2ed95b74eb52988fe1467708818e6",
-            "reference": "283b3d5f1ba2ed95b74eb52988fe1467708818e6",
+            "url": "https://api.github.com/repos/Josantonius/WP_Register/zipball/294fa1de120575c88335a5fda63317b7273b539b",
+            "reference": "294fa1de120575c88335a5fda63317b7273b539b",
             "shasum": ""
         },
         "require": {
             "php": "^5.6 || ^7.0"
         },
-        "time": "2017-08-04 14:38:41",
+        "require-dev": {
+            "josantonius/file": "^1.1.4"
+        },
+        "time": "2017-10-10 06:15:58",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -146,7 +149,7 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "Josantonius\\WP_Register\\": "src/"
+                "Josantonius\\WP_Register\\": "src/WP_Register/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -161,16 +164,21 @@
                 "role": "Developer"
             }
         ],
-        "description": "Register css and JavaScript resources.",
+        "description": "Register, minify and unify CSS and JavaScript resources.",
         "keywords": [
             "JS",
+            "assets",
             "css",
             "enqueue",
             "hhvm",
+            "minify CSS",
+            "minify JS",
             "php",
             "register",
             "script",
             "style",
+            "unify CSS",
+            "unify JS",
             "wordpress"
         ]
     },
@@ -181,12 +189,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Josantonius/PHP-Json.git",
-            "reference": "45c16825ae6544baac33f63b1a1772b7da7274e4"
+            "reference": "dd04ee52187aa1828d978a6f3a84eece1a8053cb"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Josantonius/PHP-Json/zipball/45c16825ae6544baac33f63b1a1772b7da7274e4",
-            "reference": "45c16825ae6544baac33f63b1a1772b7da7274e4",
+            "url": "https://api.github.com/repos/Josantonius/PHP-Json/zipball/dd04ee52187aa1828d978a6f3a84eece1a8053cb",
+            "reference": "dd04ee52187aa1828d978a6f3a84eece1a8053cb",
             "shasum": ""
         },
         "require": {
@@ -458,12 +466,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Eliasis-Framework/Complement.git",
-            "reference": "5a436d3f74235318d9d3e16c05710cf19e1189d8"
+            "reference": "9a32fdae14958b9e4d5fb46eb424384a3fe613fa"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Eliasis-Framework/Complement/zipball/5a436d3f74235318d9d3e16c05710cf19e1189d8",
-            "reference": "5a436d3f74235318d9d3e16c05710cf19e1189d8",
+            "url": "https://api.github.com/repos/Eliasis-Framework/Complement/zipball/9a32fdae14958b9e4d5fb46eb424384a3fe613fa",
+            "reference": "9a32fdae14958b9e4d5fb46eb424384a3fe613fa",
             "shasum": ""
         },
         "require": {
@@ -473,7 +481,7 @@
             "josantonius/json": "^1.1.2",
             "php": "^5.6 || ^7.0"
         },
-        "time": "2017-09-23 03:21:21",
+        "time": "2017-09-25 04:11:33",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -509,58 +517,6 @@
             "module",
             "php",
             "plugin"
-        ]
-    },
-    {
-        "name": "josantonius/copy-movie-grifus",
-        "version": "1.0.2",
-        "version_normalized": "1.0.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Josantonius/Copy-Movie-Grifus.git",
-            "reference": "2538d82cf78c870cbb6e6036a92602a4297f4665"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Josantonius/Copy-Movie-Grifus/zipball/2538d82cf78c870cbb6e6036a92602a4297f4665",
-            "reference": "2538d82cf78c870cbb6e6036a92602a4297f4665",
-            "shasum": ""
-        },
-        "require": {
-            "composer/installers": "^1.4.0",
-            "eliasis-framework/complement": "^1.0.9",
-            "eliasis-framework/eliasis": "^1.1.1",
-            "josantonius/wp_register": "^1.0.3",
-            "php": "^5.3 || ^7.0"
-        },
-        "time": "2017-09-08 22:41:07",
-        "type": "eliasis-module",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "ExtensionsForGrifus\\Modules\\CopyMovieGrifus\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Josantonius",
-                "email": "hello@josantonius.com",
-                "homepage": "https://josantonius.com",
-                "role": "Developer"
-            }
-        ],
-        "description": "Copy full movie information from a single button.",
-        "keywords": [
-            "Copy Movie Information",
-            "Copy movie",
-            "Grifus",
-            "Grifus Extension",
-            "plugin",
-            "wordpress"
         ]
     },
     {
@@ -612,60 +568,6 @@
             "menu",
             "php",
             "submenu",
-            "wordpress"
-        ]
-    },
-    {
-        "name": "josantonius/custom-rating-grifus",
-        "version": "1.0.4",
-        "version_normalized": "1.0.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Josantonius/Custom-Rating-Grifus.git",
-            "reference": "5c849feb20c64ad9f6b002876487ce14558ab646"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Josantonius/Custom-Rating-Grifus/zipball/5c849feb20c64ad9f6b002876487ce14558ab646",
-            "reference": "5c849feb20c64ad9f6b002876487ce14558ab646",
-            "shasum": ""
-        },
-        "require": {
-            "composer/installers": "^1.4.0",
-            "eliasis-framework/complement": "^1.0.9",
-            "eliasis-framework/eliasis": "^1.1.1",
-            "josantonius/wp_menu": "^1.0.3",
-            "josantonius/wp_register": "^1.0.3",
-            "php": "^5.3 || ^7.0"
-        },
-        "time": "2017-09-08 22:48:19",
-        "type": "eliasis-module",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "ExtensionsForGrifus\\Modules\\CustomRatingGrifus\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Josantonius",
-                "email": "hello@josantonius.com",
-                "homepage": "https://josantonius.com",
-                "role": "Developer"
-            }
-        ],
-        "description": "Replaces IMDB rating by your own rating system in Grifus theme.",
-        "keywords": [
-            "Grifus",
-            "Grifus Extension",
-            "Replace images",
-            "image",
-            "images",
-            "plugin",
             "wordpress"
         ]
     },
@@ -722,61 +624,6 @@
         ]
     },
     {
-        "name": "josantonius/custom-images-grifus",
-        "version": "1.0.3",
-        "version_normalized": "1.0.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Josantonius/Custom-Images-Grifus.git",
-            "reference": "6f66bb57e89a4fffaae5ceab4d22401a859a4332"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Josantonius/Custom-Images-Grifus/zipball/6f66bb57e89a4fffaae5ceab4d22401a859a4332",
-            "reference": "6f66bb57e89a4fffaae5ceab4d22401a859a4332",
-            "shasum": ""
-        },
-        "require": {
-            "composer/installers": "^1.4.0",
-            "eliasis-framework/complement": "^1.0.9",
-            "eliasis-framework/eliasis": "^1.1.1",
-            "josantonius/wp_image": "^1.0.1",
-            "josantonius/wp_menu": "^1.0.3",
-            "josantonius/wp_register": "^1.0.3",
-            "php": "^5.3 || ^7.0"
-        },
-        "time": "2017-09-08 22:44:17",
-        "type": "eliasis-module",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "ExtensionsForGrifus\\Modules\\CustomImagesGrifus\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Josantonius",
-                "email": "hello@josantonius.com",
-                "homepage": "https://josantonius.com",
-                "role": "Developer"
-            }
-        ],
-        "description": "Save external IMDB images to your WordPress site.",
-        "keywords": [
-            "Grifus",
-            "Grifus Extension",
-            "Replace images",
-            "image",
-            "images",
-            "plugin",
-            "wordpress"
-        ]
-    },
-    {
         "name": "josantonius/wp_plugin-info",
         "version": "1.0.2",
         "version_normalized": "1.0.2.0",
@@ -824,6 +671,167 @@
             "hhvm",
             "info",
             "php",
+            "plugin",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "josantonius/copy-movie-grifus",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Josantonius/Copy-Movie-Grifus.git",
+            "reference": "b548b71828536fa7559fcf13f3a1a8849399c505"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Josantonius/Copy-Movie-Grifus/zipball/b548b71828536fa7559fcf13f3a1a8849399c505",
+            "reference": "b548b71828536fa7559fcf13f3a1a8849399c505",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "^1.4.0",
+            "eliasis-framework/complement": "^1.0.9",
+            "eliasis-framework/eliasis": "^1.1.1",
+            "josantonius/wp_register": "^1.0.4",
+            "php": "^5.3 || ^7.0"
+        },
+        "time": "2017-10-10 07:09:09",
+        "type": "eliasis-module",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ExtensionsForGrifus\\Modules\\CopyMovieGrifus\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Josantonius",
+                "email": "hello@josantonius.com",
+                "homepage": "https://josantonius.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Copy full movie information from a single button.",
+        "keywords": [
+            "Copy Movie Information",
+            "Copy movie",
+            "Grifus",
+            "Grifus Extension",
+            "plugin",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "josantonius/custom-rating-grifus",
+        "version": "1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Josantonius/Custom-Rating-Grifus.git",
+            "reference": "f0317a78ab33efc076adba476b9d03d3ffa42e06"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Josantonius/Custom-Rating-Grifus/zipball/f0317a78ab33efc076adba476b9d03d3ffa42e06",
+            "reference": "f0317a78ab33efc076adba476b9d03d3ffa42e06",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "^1.4.0",
+            "eliasis-framework/complement": "^1.0.9",
+            "eliasis-framework/eliasis": "^1.1.1",
+            "josantonius/wp_menu": "^1.0.3",
+            "josantonius/wp_register": "^1.0.4",
+            "php": "^5.3 || ^7.0"
+        },
+        "time": "2017-10-10 07:14:44",
+        "type": "eliasis-module",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ExtensionsForGrifus\\Modules\\CustomRatingGrifus\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Josantonius",
+                "email": "hello@josantonius.com",
+                "homepage": "https://josantonius.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Replaces IMDB rating by your own rating system in Grifus theme.",
+        "keywords": [
+            "Grifus",
+            "Grifus Extension",
+            "Replace images",
+            "image",
+            "images",
+            "plugin",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "josantonius/custom-images-grifus",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Josantonius/Custom-Images-Grifus.git",
+            "reference": "64a7d141ea40612be00a90eb70def121d150bc0c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Josantonius/Custom-Images-Grifus/zipball/64a7d141ea40612be00a90eb70def121d150bc0c",
+            "reference": "64a7d141ea40612be00a90eb70def121d150bc0c",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "^1.4.0",
+            "eliasis-framework/complement": "^1.0.9",
+            "eliasis-framework/eliasis": "^1.1.1",
+            "josantonius/wp_image": "^1.0.1",
+            "josantonius/wp_menu": "^1.0.3",
+            "josantonius/wp_register": "^1.0.4",
+            "php": "^5.3 || ^7.0"
+        },
+        "time": "2017-10-10 07:09:34",
+        "type": "eliasis-module",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ExtensionsForGrifus\\Modules\\CustomImagesGrifus\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Josantonius",
+                "email": "hello@josantonius.com",
+                "homepage": "https://josantonius.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Save external IMDB images to your WordPress site.",
+        "keywords": [
+            "Grifus",
+            "Grifus Extension",
+            "Replace images",
+            "image",
+            "images",
             "plugin",
             "wordpress"
         ]

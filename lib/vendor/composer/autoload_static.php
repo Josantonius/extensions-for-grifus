@@ -36,7 +36,7 @@ class ComposerStaticInit4e8a00105295a4d8bd97a25aa916c4e3
     public static $prefixDirsPsr4 = array (
         'Josantonius\\WP_Register\\' => 
         array (
-            0 => __DIR__ . '/..' . '/josantonius/wp_register/src',
+            0 => __DIR__ . '/..' . '/josantonius/wp_register/src/WP_Register',
         ),
         'Josantonius\\WP_Menu\\' => 
         array (
@@ -80,7 +80,7 @@ class ComposerStaticInit4e8a00105295a4d8bd97a25aa916c4e3
         ),
         'Eliasis\\Plugins\\WP_Plugin_Info\\' => 
         array (
-            0 => __DIR__ . '/..' . '/josantonius/wp_plugin-info/src',
+            0 => __DIR__ . '/../../..' . '/plugins/wp_plugin-info/src',
         ),
         'Eliasis\\Complement\\' => 
         array (

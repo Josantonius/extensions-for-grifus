@@ -43,7 +43,7 @@
       function bitcoinButton() {
 
          $(function(){
-            var url = extensionsForGrifusAdmin.icons_url;
+            var url = eliasis.icons_url;
             var btn = '<div class="symbol">' +
                         '<img id ="symbol" src="' + url +'bitcoin.png">' +
                       '</div>' +
@@ -94,13 +94,13 @@
       function moduleStatusHandler(id, state) {
 
          $.ajax({
-            url: extensionsForGrifusAdmin.ajax_url,
+            url: eliasis.ajax_url,
             type: 'post',
             data: {
                id:           id,
                state:        state,
                action:       'moduleStatusHandler',
-               custom_nonce: extensionsForGrifusAdmin.custom_nonce
+               custom_nonce: eliasis.nonce
             },
             success:function(data) {
 
@@ -207,7 +207,7 @@
 
             $('#' + id).prop("disabled",true);
 
-            var textButton = extensionsForGrifusAdmin.updating + '...';
+            var textButton = eliasis.updating + '...';
 
             $('#' + id).attr('data-state', state).text(textButton);
 
@@ -215,7 +215,7 @@
 
             $('#' + id).prop("disabled",true);
 
-            var textButton = extensionsForGrifusAdmin.installing + '...';
+            var textButton = eliasis.installing + '...';
 
             $('#' + id).attr('data-state', state).text(textButton);
          }
