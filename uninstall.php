@@ -10,9 +10,9 @@
  * @since     1.0.0
  */
 
-require 'lib/vendor/autoload.php';
+require 'vendor/autoload.php';
 
-use Eliasis\App\App;
+use Eliasis\Framework\App;
 
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 
@@ -21,4 +21,4 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 
 App::run( __DIR__, 'wordpress-plugin', 'EFG' );
 
-App::EFG()->getControllerInstance( 'Uninstall', 'controller' )->removeAll();
+App::EFG()->getControllerInstance( 'Uninstall', 'controller' )->remove_all();

@@ -58,7 +58,7 @@ class Launcher extends Controller {
 	 */
 	public function activation() {
 
-		if ( ! function_exists( 'grifus_ussers' ) ) {
+		if ( ! function_exists( 'grifus_users' ) ) {
 
 			deactivate_plugins( basename( __FILE__ ) );
 
@@ -72,9 +72,9 @@ class Launcher extends Controller {
 
 		$plugin = isset( $_REQUEST['plugin'] ) ? filter_var( wp_unslash( $_REQUEST['plugin'] ), FILTER_SANITIZE_STRING ) : null;
 
-		check_admin_referer( "activate-plugin_{$plugin}" );
+		check_admin_referer( "activate-plugin_$plugin" );
 
-		$this->model->setOptions();
+		$this->model->set_options();
 
 		flush_rewrite_rules();
 	}
@@ -89,7 +89,7 @@ class Launcher extends Controller {
 
 		$plugin = isset( $_REQUEST['plugin'] ) ? filter_var( wp_unslash( $_REQUEST['plugin'] ), FILTER_SANITIZE_STRING ) : null;
 
-		check_admin_referer( "deactivate-plugin_{$plugin}" );
+		check_admin_referer( "deactivate-plugin_$plugin" );
 
 		flush_rewrite_rules();
 	}

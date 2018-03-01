@@ -12,7 +12,7 @@
 
 namespace EFG\Controller;
 
-use Eliasis\Complement\Type\Module\Module;
+use Eliasis\Complement\Type\Module;
 use Eliasis\Framework\Controller;
 
 /**
@@ -23,15 +23,15 @@ class Uninstall extends Controller {
 	/**
 	 * Remove and uninstall the plugin components.
 	 */
-	public function removeAll() {
+	public function remove_all() {
 
-		$module = Module::getInfo( 'wp-plugin-extension' );
+		$module = Module::getList( 'wp-plugin-extension' );
 
-		foreach ( $module as $key ) {
-			$name = $module[ $key ]['id'];
+		foreach ( $modules as $module ) {
+			$name = $module['id'];
 			Module::$name()->remove();
 		}
 
-		$this->model->removeAll();
+		$this->model->remove_all();
 	}
 }

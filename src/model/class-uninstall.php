@@ -12,8 +12,8 @@
 
 namespace EFG\Model;
 
-use Eliasis\Framework\Model,
-	Eliasis\Framework\App;
+use Eliasis\Framework\Model;
+use Eliasis\Framework\App;
 
 /**
  * Main method for cleaning and removal of components.
@@ -28,7 +28,7 @@ class Uninstall extends Model {
 	 *
 	 * @return void
 	 */
-	public function removeAll() {
+	public function remove_all() {
 
 		$slug = App::EFG()->getOption( 'slug' );
 
