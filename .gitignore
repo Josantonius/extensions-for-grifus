@@ -15,3 +15,4 @@ modules/
 .php_cs.cache
 vendor/
 plugins/
+components/
