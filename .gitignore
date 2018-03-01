@@ -13,3 +13,4 @@ docs/*.pyc
 .DS_STORE
 modules/
 .php_cs.cache
+vendor/
