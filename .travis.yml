@@ -60,8 +60,8 @@ before_script:
 script:
   - |
     if [[ ! -z "$WP_VERSION" ]] ; then
-      phpunit --coverage-clover=coverage.xml
-      WP_MULTISITE=1 phpunit --coverage-clover=coverage.xml
+      phpunit tests/class-plugin-test.php
+      WP_MULTISITE=1 phpunit tests/class-plugin-test.php
       phpcs --standard=phpcs.xml $(find . -name '*.php')
       phpmd src,tests text ./phpmd.xml --exclude tests/sample-app/*
     fi
