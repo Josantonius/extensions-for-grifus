@@ -119,7 +119,7 @@ class Launcher extends Controller {
 		load_plugin_textdomain(
 			$slug,
 			false,
-			$slug . App::DS . 'languages' . App::DS
+			$slug . '/languages/'
 		);
 	}
 
