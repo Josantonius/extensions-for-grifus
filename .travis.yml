@@ -60,8 +60,8 @@ before_script:
 script:
   - |
     if [[ ! -z "$WP_VERSION" ]] ; then
-      phpunit --configuration phpunit.xml --testsuite EFG
-      WP_MULTISITE=1 phpunit --configuration phpunit.xml --testsuite EFG
+      phpunit --configuration ./phpunit.xml --testsuite EFG
+      WP_MULTISITE=1 phpunit --configuration ./phpunit.xml --testsuite EFG
       phpcs --standard=phpcs.xml $(find . -name '*.php')
       phpmd src,tests text ./phpmd.xml --exclude tests/sample-app/*
     fi
