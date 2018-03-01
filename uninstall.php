@@ -1,25 +1,24 @@
 <?php
 /**
  * Extensions For Grifus WordPress plugin.
- * 
- * @author     Josantonius - hello@josantonius.com
- * @copyright  Copyright (c) 2017
- * @license    GPL-2.0+
- * @link       https://github.com/Josantonius/Extensions-For-Grifus.git
- * @since      1.0.0
+ *
+ * @author    Josantonius <hello@josantonius.com>
+ * @package   josantonius/extensions-for-grifus
+ * @copyright 2017 - 2018 (c) Josantonius - Extensions For Grifus
+ * @license   GPL-2.0+
+ * @link      https://github.com/josantonius/extensions-for-grifus.git
+ * @since     1.0.0
  */
 
-$DS = DIRECTORY_SEPARATOR;
-
-require 'lib' . $DS . 'vendor' . $DS .'autoload.php';
+require 'lib/vendor/autoload.php';
 
 use Eliasis\App\App;
 
-if (!defined('WP_UNINSTALL_PLUGIN')) {
+if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 
-    exit();
+	exit();
 }
 
-App::run(__DIR__, 'wordpress-plugin', 'ExtensionsForGrifus');
+App::run( __DIR__, 'wordpress-plugin', 'EFG' );
 
-App::ExtensionsForGrifus()->instance('Uninstall', 'controller')->removeAll();
+App::EFG()->getControllerInstance( 'Uninstall', 'controller' )->removeAll();

@@ -11,3 +11,5 @@ docs/*.pyc
 .git*/
 .idea
 .DS_STORE
+modules/
+.php_cs.cache

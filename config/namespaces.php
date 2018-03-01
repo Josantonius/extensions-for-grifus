@@ -1,24 +1,25 @@
 <?php
 /**
  * Extensions For Grifus WordPress plugin.
- * 
- * @author     Josantonius - hello@josantonius.com
- * @copyright  Copyright (c) 2017
- * @license    GPL-2.0+
- * @link       https://github.com/Josantonius/Extensions-For-Grifus.git
- * @since      1.0.0
+ *
+ * @author    Josantonius <hello@josantonius.com>
+ * @package   josantonius/extensions-for-grifus
+ * @copyright 2017 - 2018 (c) Josantonius - Extensions For Grifus
+ * @license   GPL-2.0+
+ * @link      https://github.com/josantonius/extensions-for-grifus.git
+ * @since     1.0.0
  */
 
-$pluginName = 'ExtensionsForGrifus';
+$plugin_name = 'EFG';
 
 return [
 
-    'namespaces' => [
+	'namespaces' => [
 
-        'modules'         => $pluginName . '\\Modules\\',
-        'plugins'         => $pluginName . '\\Plugins\\',
-        'admin-page'      => $pluginName . '\\Controller\\Admin\\Page\\',
-        'admin-component' => $pluginName . '\\Controller\\Admin\\Component\\',
-        'controller'      => $pluginName . '\\Controller\\',
-    ],
+		'modules'         => $plugin_name . '\\Modules\\',
+		'plugins'         => $plugin_name . '\\Plugins\\',
+		'admin-page'      => $plugin_name . '\\Controller\\Admin\\Page\\',
+		'admin-component' => $plugin_name . '\\Controller\\Admin\\Component\\',
+		'controller'      => $plugin_name . '\\Controller\\',
+	],
 ];

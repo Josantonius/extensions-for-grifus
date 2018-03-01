@@ -1,34 +1,35 @@
 <?php
 /**
  * Extensions For Grifus WordPress plugin.
- * 
- * @author     Josantonius - hello@josantonius.com
- * @copyright  Copyright (c) 2017
- * @license    GPL-2.0+
- * @link       https://github.com/Josantonius/Extensions-For-Grifus.git
- * @since      1.0.0
+ *
+ * @author    Josantonius <hello@josantonius.com>
+ * @package   josantonius/extensions-for-grifus
+ * @copyright 2017 - 2018 (c) Josantonius - Extensions For Grifus
+ * @license   GPL-2.0+
+ * @link      https://github.com/josantonius/extensions-for-grifus.git
+ * @since     1.0.0
  */
 
-use Eliasis\App\App;
+use Eliasis\Framework\App;
 
-$iconsUrl = App::ExtensionsForGrifus()->get('url', 'icons');
+$icons_url = App::EFG()->getOption( 'url', 'icons' );
 
 return [
 
 	'menu' => [
 		'top-level' => [
 			'title'      => __(
-				'Extensions For Grifus theme', 
+				'Extensions For Grifus theme',
 				'extensions-for-grifus'
 			),
 			'name'       => __(
-				'Grifus Extensions', 
+				'Grifus Extensions',
 				'extensions-for-grifus'
 			),
 			'capability' => 'manage_options',
 			'slug'       => 'extensions-for-grifus',
 			'function'   => '',
-			'icon_url'   => $iconsUrl . 'extensions-grifus-admin.png',
+			'icon_url'   => $icons_url . 'extensions-grifus-admin.png',
 			'position'   => 25,
 		],
 	],

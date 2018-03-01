@@ -5,9 +5,9 @@
  * Plugin Name: Extensions For Grifus
  * Plugin URI:  https://wordpress.org/plugins/extensions-for-grifus/
  * Description: Extensions for Grifus theme.
- * Version:     1.0.5
+ * Version:     1.0.6
  * Author:      Josantonius
- * Author URI:  https://josantonius.com/ 
+ * Author URI:  https://josantonius.com/
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: extensions-for-grifus
@@ -20,42 +20,40 @@
  * Domain Path: /modules/copy-movie-grifus/languages
  */
 
-use Eliasis\App\App;
+use Eliasis\Framework\App;
 
-$DS = DIRECTORY_SEPARATOR;
-
-/** 
+/**
  * Don't expose information if this file called directly.
  */
-if (!function_exists('add_action') || !defined('ABSPATH')) {
-
-    echo 'I can do when called directly.'; die;
+if ( ! function_exists( 'add_action' ) || ! defined( 'ABSPATH' ) ) {
+	echo 'I can do when called directly.';
+	die;
 }
 
-/** 
+/**
  * Classloader.
  */
-require 'lib' . $DS . 'vendor' . $DS .'autoload.php';
+require 'vendor/autoload.php';
 
-/** 
+/**
  * Start application.
  */
-App::run(__DIR__, 'wordpress-plugin', 'ExtensionsForGrifus');
+App::run( __DIR__, 'wordpress-plugin', 'EFG' );
 
-/** 
+/**
  * Get main instance.
  */
-$Launcher = App::instance('Launcher', 'controller');
+$launcher = App::getControllerInstance( 'Launcher', 'controller' );
 
-/** 
+/**
  * Register hooks.
  */
-register_activation_hook(__FILE__, [$Launcher, 'activation']);
+register_activation_hook( __FILE__, [ $launcher, 'activation' ] );
 
-register_deactivation_hook(__FILE__, [$Launcher, 'deactivation']);
+register_deactivation_hook( __FILE__, [ $launcher, 'deactivation' ] );
 
-/** 
+/**
  * Launch application.
  */
-$Launcher->init();
-?>
+$launcher->init();
+

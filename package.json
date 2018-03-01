@@ -1,6 +1,6 @@
 {
   "name": "Extensions For Grifus WordPress plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Extensions for Grifus theme.",
   "main": "gulpfile.js",
   "directories": {
@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Josantonius/Extensions-For-Grifus.git"
+    "url": "https://github.com/josantonius/extensions-for-grifus.git"
   },
   "author": "Josantonius",
   "license": "GPL-2.0+",
   "bugs": {
-    "url": "https://github.com/Josantonius/Extensions-For-Grifus/issues"
+    "url": "https://github.com/josantonius/extensions-for-grifus/issues"
   },
-  "homepage": "https://github.com/Josantonius/Extensions-For-Grifus#readme"
+  "homepage": "https://github.com/josantonius/extensions-for-grifus#readme"
 }

@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 1.0.6 - 2018-03-01
+
+* Implemented `PHP Mess Detector` to detect inconsistencies in code styles.
+
+* Implemented `PHP Code Beautifier and Fixer` to fixing errors automatically.
+
+* Implemented `PHP Coding Standards Fixer` to organize PHP code automatically according to PSR standards.
+
+* Implemented `WordPress PHPCS code standard` from all library PHP files.
+
+* Implemented `Codacy` to automates code reviews and monitors code quality over time.
+
+* Implemented `Codecov` to coverage reports.
+
 ## 1.0.5 - 2017-10-10
 
 Added functionality to minify CSS/JS content and unify files into a single file.

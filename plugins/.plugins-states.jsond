@@ -1,8 +1,0 @@
-{
-    "ExtensionsForGrifus": {
-        "WP_Plugin_Info": {
-            "action": "activation",
-            "state": "active"
-        }
-    }
-}
