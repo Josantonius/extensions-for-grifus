@@ -48,14 +48,6 @@ The plugin has been developed under version 4.8 of WordPress and under version 4
 
 You can download this plugin from the [official repository](https://es.wordpress.org/plugins/extensions-for-grifus/) in WordPress.
 
-From [Composer](http://getcomposer.org/download/). In the root folder of WordPress run:
-
-    $ composer require josantonius/extensions-for-grifus
-
-The previous command will only install the necessary files, if you prefer to **download the entire source code** you can use:
-
-    $ composer require josantonius/extensions-for-grifus --prefer-source
-
 From your WordPress dashboard:
 
 	1. Visit 'Plugins > Add New'

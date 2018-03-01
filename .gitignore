@@ -14,3 +14,4 @@ docs/*.pyc
 modules/
 .php_cs.cache
 vendor/
+plugins/

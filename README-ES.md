@@ -48,14 +48,6 @@ Extensions For Grifus ha sido desarrollado bajo la versión 4.8 de WordPress y b
 
 Puedes instalar este plugin desde el [repositorio oficial](https://es.wordpress.org/plugins/extensions-for-grifus/) en WordPress.
 
-Utilizando [Composer](http://getcomposer.org/download/). En la carpeta raíz de WordPress ejecutar:
-
-    $ composer require josantonius/extensions-for-grifus
-
-El comando anterior sólo instalará los archivos necesarios, si prefieres **descargar todo el código fuente** puedes utilizar:
-
-    $ composer require josantonius/extensions-for-grifus --prefer-source
-
 Desde el panel de administración de WordPress:
 
 	1. Entra en 'Plugins > Añadir Nuevo'
