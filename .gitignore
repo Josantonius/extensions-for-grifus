@@ -16,3 +16,5 @@ modules/
 vendor/
 plugins/
 components/
+public/css/min/*
+public/js/min/*
