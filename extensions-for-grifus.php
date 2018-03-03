@@ -56,4 +56,3 @@ register_deactivation_hook( __FILE__, [ $launcher, 'deactivation' ] );
  * Launch application.
  */
 $launcher->init();
-
