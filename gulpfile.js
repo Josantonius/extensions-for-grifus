@@ -1,14 +1,13 @@
 /**
  * Extensions For Grifus WordPress plugin.
- * 
- * @author     Josantonius - hello@josantonius.com
- * @copyright  Copyright (c) 2017
- * @license    GPL-2.0+
- * @link       https://github.com/Josantonius/Extensions-For-Grifus.git
- * @since      1.0.4
+ *
+ * @author    Josantonius <hello@josantonius.com>
+ * @package   josantonius/extensions-for-grifus
+ * @copyright 2017 - 2018 (c) Josantonius - Extensions For Grifus
+ * @license   GPL-2.0+
+ * @link      https://github.com/josantonius/extensions-for-grifus.git
+ * @since     1.0.0
  */
-
-// Dependencies
 
 var gulp         = require('gulp'),
     concat       = require('gulp-concat'),
@@ -20,8 +19,6 @@ var gulp         = require('gulp'),
     notify       = require('gulp-notify'),
     sourcemaps   = require('gulp-sourcemaps'),
     autoprefixer = require('gulp-autoprefixer');
-
-// Tasks
 
 gulp.task('js', function () {
 

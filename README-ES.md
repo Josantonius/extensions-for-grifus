@@ -77,7 +77,7 @@ Para ejecutar las [pruebas](tests) necesitarás [Composer](http://getcomposer.or
 
     $ git clone https://github.com/josantonius/extensions-for-grifus.git
     
-    $ cd WP_Notice
+    $ cd extensions-for-grifus
 
     $ composer install
 
