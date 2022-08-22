@@ -1,6 +1,6 @@
 # Extensions For Grifus WordPress Plugin
 
-[![License](https://poser.pugx.org/josantonius/extensions-for-grifus/license)](https://packagist.org/packages/josantonius/extensions-for-grifus)
+[![License](https://poser.pugx.org/josantonius/wp-extensions-for-grifus/license)](https://packagist.org/packages/josantonius/wp-extensions-for-grifus)
 
 [English version](README.md)
 
@@ -73,9 +73,9 @@ Una vez activado:
 
 Para ejecutar las [pruebas](tests) necesitarás [Composer](http://getcomposer.org/download/) y seguir los siguientes pasos:
 
-    git clone https://github.com/josantonius/extensions-for-grifus.git
+    git clone https://github.com/josantonius/wp-extensions-for-grifus.git
     
-    cd extensions-for-grifus
+    cd wp-extensions-for-grifus
 
     composer install
 

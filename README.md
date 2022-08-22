@@ -1,6 +1,6 @@
 # Extensions For Grifus WordPress Plugin
 
-[![License](https://poser.pugx.org/josantonius/extensions-for-grifus/license)](https://packagist.org/packages/josantonius/extensions-for-grifus)
+[![License](https://poser.pugx.org/josantonius/wp-extensions-for-grifus/license)](https://packagist.org/packages/josantonius/wp-extensions-for-grifus)
 
 [Versión en español](README-ES.md)
 
@@ -73,9 +73,9 @@ Once Activated:
 
 To run [tests](tests) you just need [composer](http://getcomposer.org/download/) and to execute the following:
 
-    git clone https://github.com/josantonius/extensions-for-grifus.git
+    git clone https://github.com/josantonius/wp-extensions-for-grifus.git
     
-    cd extensions-for-grifus
+    cd wp-extensions-for-grifus
 
     bash bin/install-wp-tests.sh wordpress_test root '' localhost latest
 
