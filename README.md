@@ -104,6 +104,6 @@ If this project helps you to reduce your development time,
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [GPLv2 License](LICENSE).
 
 Copyright © 2017-2022, [Josantonius](https://github.com/josantonius#contact)

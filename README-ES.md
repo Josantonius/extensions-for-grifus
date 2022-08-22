@@ -103,6 +103,6 @@ para apoyar mi trabajo :blush:
 
 ## Licencia
 
-Este repositorio tiene una licencia [MIT License](LICENSE).
+Este repositorio tiene una licencia [GPLv2 License](LICENSE).
 
 Copyright © 2017-2022, [Josantonius](https://github.com/josantonius/lang/es-ES/README.md#contacto)
