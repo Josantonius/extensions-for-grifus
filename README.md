@@ -1,6 +1,6 @@
-# Extensions For Grifus Wordpress Plugin
+# Extensions For Grifus WordPress Plugin
 
-[![WordPress plugin](https://img.shields.io/wordpress/plugin/v/extensions-for-grifus.svg)](https://wordpress.org/plugins/extensions-for-grifus/) [![WordPress](https://img.shields.io/wordpress/plugin/dt/extensions-for-grifus.svg)](https://wordpress.org/plugins/extensions-for-grifus/) [![WordPress](https://img.shields.io/wordpress/v/extensions-for-grifus.svg)](https://wordpress.org/plugins/extensions-for-grifus/) [![License](https://poser.pugx.org/josantonius/extensions-for-grifus/license)](https://packagist.org/packages/josantonius/extensions-for-grifus) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/18f6a66114c34f05b5837fd6ad2d1d35)](https://www.codacy.com/app/Josantonius/Extensions-For-Grifus?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Josantonius/Extensions-For-Grifus&amp;utm_campaign=Badge_Grade) [![Travis](https://travis-ci.org/josantonius/extensions-for-grifus.svg)](https://travis-ci.org/josantonius/extensions-for-grifus) [![WP](https://img.shields.io/badge/WordPress-Standar-1abc9c.svg)](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/) [![CodeCov](https://codecov.io/gh/josantonius/extensions-for-grifus/branch/master/graph/badge.svg)](https://codecov.io/gh/josantonius/extensions-for-grifus)
+[![License](https://poser.pugx.org/josantonius/extensions-for-grifus/license)](https://packagist.org/packages/josantonius/extensions-for-grifus)
 
 [Versión en español](README-ES.md)
 
@@ -14,10 +14,8 @@ Extensions for the Grifus theme.
 - [Installation](#installation)
 - [Images](#images)
 - [Tests](#tests)
-- [TODO](#-todo)
-- [Contribute](#contribute)
+- [Sponsor](#Sponsor)
 - [License](#license)
-- [Copyright](#copyright)
 
 ---
 
@@ -34,7 +32,7 @@ Replaces IMDB rating by your own rating system in Grifus theme. Replaces the sta
 
 <p align="center">
   <a href="https://youtu.be/eU1hSQxo-R4" title="Extensions For Grifus">
-  	<img src="resources/thumbnail-english-video.png">
+   <img src="resources/thumbnail-english-video.png">
   </a>
 </p>
 
@@ -50,85 +48,62 @@ You can download this plugin from the [official repository](https://es.wordpress
 
 From your WordPress dashboard:
 
-	1. Visit 'Plugins > Add New'
-	2. Search for 'Extensions For Grifus'
-	3. Activate Extensions For Grifus from your Plugins page.
+ 1. Visit 'Plugins > Add New'
+ 2. Search for 'Extensions For Grifus'
+ 3. Activate Extensions For Grifus from your Plugins page.
 
 From WordPress.org:
 
-	1. Download [Extensions For Grifus](https://es.wordpress.org/plugins/extensions-for-grifus/).
-	2. Upload the 'extensions-for-grifus' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...).
-	3. Activate Extensions For Grifus from your Plugins page.
+ 1. Download [Extensions For Grifus](https://es.wordpress.org/plugins/extensions-for-grifus/).
+ 2. Upload the 'extensions-for-grifus' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...).
+ 3. Activate Extensions For Grifus from your Plugins page.
 
 Once Activated:
-	
-	1. Go to Grifus Extensions and install and activate the modules.
-	2. Go to Grifus Extensions > Custom Rating and click the button to reset all ratings.
-	3. Go to Grifus Extensions > Custom Images and click the button to replace all images.
+
+ 1. Go to Grifus Extensions and install and activate the modules.
+ 2. Go to Grifus Extensions > Custom Rating and click the button to reset all ratings.
+ 3. Go to Grifus Extensions > Custom Images and click the button to replace all images.
 
 ## Images
 
 ![image](resources/screenshot-1.png)
 ![image](resources/screenshot-2.png)
 
-## Tests 
+## Tests
 
 To run [tests](tests) you just need [composer](http://getcomposer.org/download/) and to execute the following:
 
-    $ git clone https://github.com/josantonius/extensions-for-grifus.git
+    git clone https://github.com/josantonius/extensions-for-grifus.git
     
-    $ cd extensions-for-grifus
+    cd extensions-for-grifus
 
-    $ bash bin/install-wp-tests.sh wordpress_test root '' localhost latest
+    bash bin/install-wp-tests.sh wordpress_test root '' localhost latest
 
-    $ composer install
+    composer install
 
 Run unit tests with [PHPUnit](https://phpunit.de/):
 
-    $ composer phpunit
+    composer phpunit
 
 Run [WordPress](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/) code standard tests with [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer):
 
-    $ composer phpcs
+    composer phpcs
 
 Run [PHP Mess Detector](https://phpmd.org/) tests to detect inconsistencies in code style:
 
-    $ composer phpmd
+    composer phpmd
 
 Run all previous tests:
 
-    $ composer tests
+    composer tests
 
-## ☑ TODO
+## Sponsor
 
-- [ ] Add more tests.
-- [ ] Add new feature.
-- [ ] Improve documentation.
-- [ ] Refactor code for disabled code style rules. See [phpmd.xml](phpmd.xml) and [.php_cs.dist](.php_cs.dist).
-
-## Contribute
-
-If you would like to help, please take a look at the list of
-[issues](https://github.com/josantonius/extensions-for-grifus/issues) or the [To Do](#-todo) checklist.
-
-**Pull requests**
-
-* [Fork and clone](https://help.github.com/articles/fork-a-repo).
-* Run the command `composer install` to install the dependencies.
-  This will also install the [dev dependencies](https://getcomposer.org/doc/03-cli.md#install).
-* Run the command `composer fix` to excute code standard fixers.
-* Run the [tests](#tests).
-* Create a **branch**, **commit**, **push** and send me a
-  [pull request](https://help.github.com/articles/using-pull-requests).
+If this project helps you to reduce your development time,
+[you can sponsor me](https://github.com/josantonius#sponsor) to support my open source work :blush:
 
 ## License
 
-This project is licensed under **GPL-2.0+ license**. See the [LICENSE](LICENSE) file for more info.
+This repository is licensed under the [MIT License](LICENSE).
 
-## Copyright
-
-2017 - 2018 Josantonius, [josantonius.com](https://josantonius.com/)
-
-If you find it useful, let me know :wink:
-
-You can contact me on [Twitter](https://twitter.com/Josantonius) or through my [email](mailto:hello@josantonius.com).
+Copyright © 2017-2022, [Josantonius](https://github.com/josantonius#contact)

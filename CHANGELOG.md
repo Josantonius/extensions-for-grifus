@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2022-08-22
+
+* The repository was archived.
+
 ## 1.0.6 - 2018-03-01
 
 * Implemented `PHP Mess Detector` to detect inconsistencies in code styles.
@@ -153,7 +157,6 @@ Added functionality to minify CSS/JS content and unify files into a single file.
 * Added `extensions-for-grifus-admin/public/sass/admin/partials/_nav.sass` file.
 * Added `extensions-for-grifus-admin/public/sass/admin/partials/_wp.rating.sass` file.
 
-
 * Added `extensions-for-grifus-admin/public/js/extensions-for-grifus-admin-admin.js` file.
 * Added `extensions-for-grifus-admin/public/js/eliasis-material.min.js` file.
 
@@ -165,7 +168,6 @@ Added functionality to minify CSS/JS content and unify files into a single file.
 
 * Added `extensions-for-grifus-admin/resources/banner-1544x500.png` file.
 * Added `extensions-for-grifus-admin/resources/screenshot-1.png` file.
-
 
 * Added `extensions-for-grifus-admin/src/template/elements/footer.php` file.
 * Added `extensions-for-grifus-admin/src/template/elements/header.php` file.
